@@ -27,8 +27,8 @@ input:focus {
 }
 
 @font-face {
-  font-family: "tvN즐거운이야기";
-  src: url("./fonts/tvN즐거운이야기Medium.ttf");
+  font-family: "tvNEnjoystories";
+  src: url("./fonts/tvNEnjoystoriesMedium.ttf");
 }
 @font-face {
   font-family: "GmarketSans";
@@ -81,7 +81,7 @@ input:focus {
 }
 
 .yellow-paragraph {
-  font-family: "tvN즐거운이야기";
+  font-family: "tvNEnjoystories";
   font-size: 1.375rem;
   color: var(--main-color2);
 }
