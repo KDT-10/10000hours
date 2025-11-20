@@ -39,6 +39,17 @@ body {
   margin-top: 18px;
 }
 
+.main_last {
+  margin: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+  margin-bottom: 100px;
+}
+
 .image_title {
   position: absolute;
   width: 267px;
@@ -79,6 +90,11 @@ body {
   font-weight: 700;
 }
 
+.highlight_big {
+  font-weight: 700;
+  font-size: 24px;
+}
+
 .main_text {
   display: flex;
   justify-content: center;
@@ -102,6 +118,7 @@ body {
 }
 
 .click_box {
+  width: 30%;
   min-width: 241px;
   max-height: 68px;
   border-radius: 13px;
@@ -110,7 +127,24 @@ body {
   font-family: "G마켓 산스 TTF";
   color: #5b2386;
   background-color: #fcee21;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  cursor: pointer;
+}
+
+.btn {
+  height: 40px;
+  border-radius: 56px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #5b2386;
+  cursor: pointer;
+}
+
+.btn_yellow {
+  width: 186px;
+  background-color: #fcee21;
+}
+
+.btn_white {
+  width: 92px;
+  background-color: white;
 }
