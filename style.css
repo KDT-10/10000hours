@@ -14,6 +14,8 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 31px;
+  position: relative;
+  align-items: center;
 }
 
 .main_title {
@@ -52,15 +54,14 @@ body {
 
 .image_title {
   position: absolute;
-  width: 267px;
-  height: 53px;
-  top: 100px;
+  width: 55%;
+  height: 30%;
+  margin-top: 70px;
 }
 
 .image_clock {
-  position: relative;
-  width: 125px;
-  height: 126px;
+  width: 25%;
+  height: 25%;
   margin-top: 65px;
 }
 
@@ -147,4 +148,7 @@ body {
 .btn_white {
   width: 92px;
   background-color: white;
+}
+
+@media (min-width: 1024px) {
 }
