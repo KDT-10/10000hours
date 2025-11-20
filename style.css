@@ -198,4 +198,7 @@ input {
   .big-strong {
     font-size: 3rem;
   }
+  .line-breaker {
+    display: none;
+  }
 }
