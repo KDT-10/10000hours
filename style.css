@@ -1,9 +1,9 @@
-div.title {
-  text-align: center;
+body {
+  background-color: #044a0c;
 }
 
-div#back {
-  background-color: #044a0c;
+div.image-container {
+  text-align: center;
 }
 
 div.practice {
