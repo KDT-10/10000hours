@@ -3,7 +3,82 @@ body {
 }
 
 .background_board {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #044a0c;
+  display: flex;
+  flex-direction: column;
+}
+
+.head_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 31px;
+}
+
+.main_title {
+  position: relative;
+}
+
+.main_top {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  margin: 31px;
+}
+
+.main_middle {
+  margin: 31px;
+  align-items: center;
+}
+
+.title_image {
+  position: absolute;
+  width: 267px;
+  height: 53px;
+  top: 100px;
+}
+
+.clock_image {
+  position: relative;
+  width: 125px;
+  height: 126px;
+  margin-top: 65px;
+}
+
+.quotes_image {
+  position: absolute;
+  bottom: 60px;
+  height: 19px;
+}
+
+.title_text {
+  color: #f5df4d;
+  font-family: "tvN Enjoystories";
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-justify: 0 auto;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.main_text {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: "Gmarket Sans";
+  font-weight: 400;
+}
+
+.box {
+  display: inline-block;
+  width: 156px;
+  height: 37px;
+  background-color: white;
+  color: #babcbe;
+  border-radius: 7px;
 }
