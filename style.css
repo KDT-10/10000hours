@@ -172,6 +172,11 @@ input {
   background-color: white;
 }
 
+.bottom-btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
 @media (min-width: 501px) {
   .quote {
     font-size: 6rem;
