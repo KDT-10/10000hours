@@ -20,7 +20,7 @@ body {
   position: relative;
 }
 
-.main_top {
+.main_first {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -28,29 +28,42 @@ body {
   margin: 31px;
 }
 
-.main_middle {
+.main_seconds {
   margin: 31px;
   align-items: center;
 }
 
-.title_image {
+.main_third {
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.image_title {
   position: absolute;
   width: 267px;
   height: 53px;
   top: 100px;
 }
 
-.clock_image {
+.image_clock {
   position: relative;
   width: 125px;
   height: 126px;
   margin-top: 65px;
 }
 
-.quotes_image {
+.image_quotes {
   position: absolute;
   bottom: 60px;
   height: 19px;
+}
+
+.image_click {
+  margin-top: 30px;
+  margin-left: 8px;
+  width: 43px;
+  height: 48px;
 }
 
 .title_text {
@@ -67,18 +80,37 @@ body {
 }
 
 .main_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 14px;
   text-align: center;
-  font-family: "Gmarket Sans";
+  font-family: "G마켓 산스 TTF";
   font-weight: 400;
+  gap: 5px;
 }
 
 .box {
   display: inline-block;
   width: 156px;
   height: 37px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   color: #babcbe;
   border-radius: 7px;
+  align-content: center;
+}
+
+.click_box {
+  min-width: 241px;
+  max-height: 68px;
+  border-radius: 13px;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "G마켓 산스 TTF";
+  color: #5b2386;
+  background-color: #fcee21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
