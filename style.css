@@ -144,3 +144,72 @@ body {
     line-height: 3;
   }
 }
+.btn-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 40px;
+  width: 100%;
+}
+
+/* 버튼 스타일 */
+.btn-bigbtn {
+  font-size: 14px;
+  font-family: GmarketSansMedium;
+  border: none;
+  background-color: #4caf50;
+  color: #5b2386;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: clamp(241px, 24vw, 565px);
+  height: 68px;
+  border-radius: 13px;
+
+  padding: 23px 20px 21px 20px;
+  gap: 10px;
+  line-height: 1.4;
+}
+
+.btn-bigbtn .first-part,
+.btn-bigbtn .second-part {
+  display: block;
+}
+
+.click {
+  position: absolute;
+  width: 43px;
+  height: 48px;
+  left: 50%; /* 버튼 기준 중앙 */
+  transform: translateX(280%) translateY(35%);
+  opacity: 1;
+}
+
+/* 데스크탑 */
+@media screen and (min-width: 1024px) {
+  .btn-bigbtn {
+    width: 565px;
+    height: 66px;
+    border-radius: 56px;
+    padding: 21px 49px;
+    gap: 10px;
+    flex-direction: row;
+    white-space: nowrap;
+    font-size: 24px;
+  }
+
+  .btn-bigbtn .first-part,
+  .btn-bigbtn .second-part {
+    display: inline;
+  }
+
+  .click {
+    width: 64px;
+    height: 72px;
+    transform: translateX(430%) translateY(35%);
+  }
+}
