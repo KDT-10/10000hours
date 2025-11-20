@@ -1,0 +1,25 @@
+.img-wrap {
+  position: relative;
+  width: 564px;
+  height: 112px;
+}
+
+.img1 {
+  position: absolute;
+  top: 273px;
+  left: 678px;
+}
+
+.img2 {
+  position: absolute;
+  top: 199px;
+  left: 830px;
+  z-index: 2;
+}
+body {
+  margin: 0;
+  background: #004a0c;
+  font-family: "Pretendard", sans-serif;
+  color: #ffff;
+  text-align: center;
+}
