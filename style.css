@@ -4,14 +4,16 @@
 }
 
 @font-face {
+  font-family: "Gmarket SansL";
+  src: url("./font/GmarketSansTTF/GmarketSansTTFLight.ttf") format("truetype");
+}
+@font-face {
   font-family: "Gmarket SansM";
   src: url("./font/GmarketSansTTF/GmarketSansTTFMedium.ttf") format("truetype");
-  font-weight: 400;
 }
 @font-face {
   font-family: "Gmarket SansB";
   src: url("./font/GmarketSansTTF/GmarketSansTTFBold.ttf") format("truetype");
-  font-weight: 700;
 }
 
 .container {
@@ -78,7 +80,7 @@
 .text-2 {
   letter-spacing: 0%;
   text-align: center;
-  font-family: "Gmarket SansM";
+  font-family: "Gmarket SansL";
   font-weight: 400;
   font-size: 14px;
   color: white;
@@ -126,7 +128,7 @@
 .click-box {
   font-family: "Gmarket SansB";
   position: relative;
-  top: 260px;
+  top: 240px;
   left: 35px;
   border: 1px solid #8b8a8a;
   border-radius: 25px;
@@ -136,4 +138,17 @@
   width: 250px;
   background-color: #fcee21;
   color: #5b2386;
+}
+.text-4 {
+  position: relative;
+  text-align: center;
+  line-height: 1.7;
+  top: 280px;
+  font-family: "Gmarket SansL";
+  color: white;
+  font-size: 14px;
+}
+.text-5 {
+  font-family: "Gmarket SansB";
+  font-size: 16px;
 }
