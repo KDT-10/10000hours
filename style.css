@@ -1,6 +1,5 @@
 .container {
   background-color: #044a0c;
-  display: flex;
   width: 360px;
   height: 1081px;
 }
@@ -8,31 +7,72 @@
 .header {
   position: relative;
   display: inline-block;
+  height: 200px;
 }
-
 .clock {
   position: absolute;
   z-index: 0;
-  pointer-events: none;
   left: 118px;
   top: 65px;
 }
-
 .clock img {
   display: block;
   width: 125px;
   height: 126px;
 }
-
 .title {
   position: relative;
   z-index: 1;
   top: 100px;
   left: 47px;
 }
-
 .title img {
   display: block;
   height: 53px;
   width: 267px;
+}
+
+.subtitle {
+  position: relative;
+  top: 22px;
+  text-align: center;
+  letter-spacing: 0%;
+  font-family: "tvN Enjoystories";
+  font-weight: 700;
+  font-size: 12px;
+  color: #f5df4d;
+}
+
+.contain-text {
+  position: relative;
+  display: inline-block;
+  width: 290px;
+  height: 68px;
+  top: 64px;
+  left: 35px;
+  z-index: 1;
+}
+.text-1 {
+  letter-spacing: 0%;
+  text-align: center;
+  font-family: "Gmarket Sans";
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+.text-2 {
+  letter-spacing: 0%;
+  text-align: center;
+  font-family: "Gmarket Sans";
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+}
+.quot {
+  position: absolute;
+  z-index: 0;
+}
+.quot img {
+  display: block;
+  width: 302px;
 }
