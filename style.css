@@ -1,5 +1,6 @@
  body {
    background-color: #044a0c;
+   font-size: 16px;
  }
 @media (min-width: 320px) and (max-width: 374.9px) {
   .img-10000hour {
@@ -63,11 +64,11 @@
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
   .img-10000hour {
-    width: 70%;
+    width: 30%;
     height: auto;
   }
   .img-clock {
-    width: 40%;
+    width: 20%;
     height: auto;
   }
 }
@@ -84,7 +85,7 @@ container {
 } 
 /* 바탕 -끝- */
 
-/* 메인 박스 */
+/* 박스 */
 .main-box { 
     display: flex;
     gap: 10px;
@@ -93,7 +94,16 @@ container {
     align-items: center;
     justify-content: center;
 }
-/* 메인 박스 -끝- */
+.overview-box {
+  display: flex;
+  width: 80%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+/* 박스 -끝- */
 
 /*타이틀 이미지들 */
 .title-images {
@@ -112,4 +122,47 @@ container {
 }
 /* 타이틀 이미지 -끝- */
 
+/* 서브 이미지들 */
+.qoutes {
+  display: flex;
+  position: absolute;
+  width: 90%;
+}
+.hand-cursor {
+  display: flex;
+  position: absolute;
+}
+
 /* 폰트 */
+.font-style {
+  font-family: Gmarket Sans TTF;
+  color: white;
+}
+.font-style-sub-title {
+  font-family: 'tvN Enjoystories Bold', sans-serif;
+  font-size: 3rem;
+  color: #fcee21;
+}
+.text-center {
+  padding-left: 14%;
+  padding-right: 14%;
+}
+/* 폰트 -끝- */
+
+/* 버튼 스타일 */
+.calculate-btn {
+  background-color: #fcee21;
+  border: none;
+  color: #5b2386;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.bold {
+  font-weight: bold;
+}
