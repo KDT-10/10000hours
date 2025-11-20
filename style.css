@@ -50,7 +50,6 @@
   height: 68px;
   top: 64px;
   left: 35px;
-  z-index: 1;
 }
 .text-1 {
   letter-spacing: 0%;
@@ -67,12 +66,19 @@
   font-weight: 400;
   font-size: 14px;
   color: white;
+  line-height: 2;
+  position: relative;
+  z-index: 2;
 }
-.quot {
+.quotes {
+  display: flex;
   position: absolute;
   z-index: 0;
+  top: 44px;
+  left: 0;
+  pointer-events: none;
 }
-.quot img {
+.quotes img {
   display: block;
   width: 302px;
 }
