@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "tvN Enjoystories";
+  src: url("./font/TTF/tvN\ 즐거운이야기\ Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gmarket SansM";
+  src: url("./font/GmarketSansTTF/GmarketSansTTFMedium.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gmarket SansB";
+  src: url("./font/GmarketSansTTF/GmarketSansTTFBold.ttf") format("truetype");
+  font-weight: 700;
+}
+
 .container {
   background-color: #044a0c;
   width: 360px;
@@ -38,8 +54,8 @@
   text-align: center;
   letter-spacing: 0%;
   font-family: "tvN Enjoystories";
-  font-weight: 700;
-  font-size: 12px;
+  font-weight: 400;
+  font-size: 22px;
   color: #f5df4d;
 }
 
@@ -54,7 +70,7 @@
 .text-1 {
   letter-spacing: 0%;
   text-align: center;
-  font-family: "Gmarket Sans";
+  font-family: "Gmarket SansB";
   font-weight: 700;
   font-size: 14px;
   color: white;
@@ -62,7 +78,7 @@
 .text-2 {
   letter-spacing: 0%;
   text-align: center;
-  font-family: "Gmarket Sans";
+  font-family: "Gmarket SansM";
   font-weight: 400;
   font-size: 14px;
   color: white;
@@ -84,7 +100,7 @@
 }
 
 .text-3 {
-  font-family: "Gmarket Sans";
+  font-family: "Gmarket SansM";
   position: relative;
   width: 311px;
   height: 37px;
@@ -106,4 +122,18 @@
   text-align: center;
   width: 130px;
   color: #babcbe;
+}
+.click-box {
+  font-family: "Gmarket SansB";
+  position: relative;
+  top: 260px;
+  left: 35px;
+  border: 1px solid #8b8a8a;
+  border-radius: 25px;
+  padding: 20px;
+  border-radius: 17px;
+  text-align: center;
+  width: 250px;
+  background-color: #fcee21;
+  color: #5b2386;
 }
