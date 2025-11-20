@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fonts-archive/tvNEnjoyStories/tvNEnjoyStories.css" type="text/css"/>
+  <title>1120 1만시간의 법칙</title>
+<style>
+.body { 
+  padding: 30px;
+  background-color: #044A0C;
+}
+
+.title-bg {
+  background-image: url('./title-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+}
+.title-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 350px;
+  height: auto;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, .h7 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'tvN Enjoystories', sans-serif;
+  margin: 30px auto 0;
+  width: 100%;
+  max-width: 500px;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .title-bg {
+    width: 90%;
+    height: 100px;
+  }
+  .title-overlay {
+    max-width: 250px;
+  }
+  .h1, .h2, .h3, .h4, .h5, .h6, .h7 {
+    font-size: 16px;
+    padding: 0 15px;
+  }
+  body {
+    padding: 20px 10px !important;
+  }
+}
+</style>
+
+</head>
+
+<body class="bg-[#044A0C] min-h-screen p-8" style="display: flex; flex-direction: column; align-items: center;">
+    <h1 class="title-bg">
+    <img src="./frame.png" class="title-overlay">
+  </h1>
+   <div class="h1" style="margin-top: 10px;">
+     <img src="./subtitle-image.png" alt="연습은 어제의 당신보다 당신을 더 낫게 만든다." style="display: block; margin: 0 auto; max-width: 300px; height: auto;">
+   </div>
+   <div class="h2">
+     <img src="./law-text.png" alt="1만 시간의 법칙 설명" style="display: block; margin: 0 auto; max-width: 150px; height: auto;">
+   </div>
+    <div class="h3" style="margin-top: 45px;">
+      <img src="./h3-text.png" alt="나는 전문가가 될 것이다." style="display: block; margin: 0 auto; max-width: 200px; height: auto;">
+    </div>
+    <div class="h4" style="margin-top: 10px;">
+      <img src="./h4-text.png" alt="그래서 앞으로 매일 하루에 시간씩 훈련할거다." style="display: block; margin: 0 auto; max-width: 300px; height: auto;">
+    </div>
+    <div class="h5" style="margin-top: 80px; display: flex; justify-content: center; align-items: center; gap: 10px;">
+      <button style="background: none; border: none; padding: 0; cursor: pointer;">
+        <img src="./h5-text.png" alt="나는 며칠 동안 훈련을 해야 1만 시간이 될까?" style="max-width: 200px; height: auto;">
+      </button>
+      <img src="./h5-icon.png" alt="icon" style="max-width: 20px; height: auto; position: relative; left: -10px; bottom: -7px;">
+    </div>
+    <div class="h6" style="margin-top: 80px;">
+      <img src="./h6-text.png" alt="당신은 프로그래밍 전문가가 되기 위해서" style="display: block; margin: 0 auto; max-width: 250px; height: auto;">
+    </div>
+    <div class="h7" style="margin-top: 10px;">
+      <img src="./h7-text.png" alt="대략 5110일 이상 훈련하셔야 합니다! :" style="display: block; margin: 0 auto; max-width: 200px; height: auto;">
+    </div>
+     <div style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 50px; margin-bottom: 100px;">
+      <button style="background: none; border: none; padding: 0; cursor: pointer; display: flex; align-items: center; gap: 15px;">
+        <img src="./button.png" alt="훈련하러 가기 GO!GO!" style="max-width: 130px; height: auto;">
+        <img src="./button-icon.png" alt="icon" style="max-width: 80px; height: auto; position: relative; left: -16px;">
+      </button>
+</div>
+    
+</body>
+</html>
