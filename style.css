@@ -1,0 +1,10 @@
+@font-face {
+  font-family: '명언';
+  src: url('./TTF/명언font.ttf') format('truetype');
+  font-weight: 700;
+}
+
+.font-명언 {
+  font-family: '명언', sans-serif;
+}
+
