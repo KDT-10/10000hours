@@ -17,7 +17,7 @@ p {
 .head_title {
   display: flex;
   justify-content: center;
-  margin-bottom: 31px;
+  margin-bottom: 4vh;
   position: relative;
   align-items: center;
 }
@@ -36,29 +36,28 @@ p {
   flex-direction: column;
   position: relative;
   align-items: center;
-  margin: 31px;
+  margin: 10vw 0;
 }
 
 .main_second {
-  margin: 31px;
+  margin-bottom: 7vw;
   align-items: center;
 }
 
 .main_third {
   display: flex;
   justify-content: center;
-  margin-top: 18px;
 }
 
 .main_last {
-  margin: 40px;
+  margin: 7vw;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   gap: 13px;
-  margin-bottom: 100px;
+  margin-bottom: 180px;
 }
 
 .image_title {
@@ -127,8 +126,9 @@ p {
 }
 
 .click_box {
-  width: 30%;
+  width: 53%;
   min-width: 241px;
+  max-width: 565px;
   max-height: 68px;
   border-radius: 13px;
   font-weight: 700;
@@ -138,8 +138,10 @@ p {
   background-color: #fcee21;
   cursor: pointer;
   padding: 21px 49px;
-  line-height: 16px;
+  line-height: 1.2;
   border: none;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 .btn {
@@ -167,6 +169,18 @@ p {
     font-size: 36px;
   }
 
+  .main_first {
+    margin: 78px;
+  }
+
+  .main_second {
+    margin-bottom: 90px;
+  }
+
+  .main_last {
+    margin: 120px;
+  }
+
   .main_text {
     font-size: 24px;
   }
@@ -192,6 +206,7 @@ p {
     max-width: 565px;
     border-radius: 56px;
     margin-top: 15px;
+    white-space: nowrap;
   }
 
   .image_click {
@@ -231,5 +246,9 @@ p {
   .btn_white {
     width: 191px;
     background-color: white;
+  }
+
+  .footer {
+    gap: 18px;
   }
 }
