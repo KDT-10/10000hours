@@ -7,53 +7,114 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="poster bg-[#044A0C] min-h-screen">
+
       <!-- 1. 헤더(상단 이미지) -->
-      <section class="title-header relative min-h-[300px] bg-[#044A0C]">
+      <section class="title-header relative min-h-[300px] md:min-h-[420px]">
 
-  <!-- 시계 -->
-  <img 
-    src="./images/clock.png"
-    alt="시계 이미지"
-    class="absolute z-0 
-           w-[140px] h-[140px] 
-           top-[65px] left-1/2 -translate-x-1/2
-           text-center"
-           
-  />
+        <!-- 시계 -->
+        <img 
+          src="./images/clock.png"
+          alt="시계 이미지"
+          class="absolute z-0 
+                 w-[140px] h-[140px] 
+                 top-[65px] left-1/2 -translate-x-1/2
+                 md:w-[200px] md:h-[200px] md:top-[100px]"
+        />
 
-  <!-- 타이틀 -->
-  <img 
-    src="./images/title.png"
-    alt="1만 시간의 법칙"
-    class="absolute z-10
-           w-[330px] h-[65px]
-           top-[100px] left-1/2 -translate-x-1/2
-           text-center"/>
-</section>
+        <!-- 타이틀 -->
+        <img 
+          src="./images/title.png"
+          alt="1만 시간의 법칙"
+          class="absolute z-10
+                 w-[330px] h-[65px]
+                 top-[100px] left-1/2 -translate-x-1/2
+                 md:w-[480px] md:h-[95px] md:top-[170px]"
+        />
+      </section>
 
       <!-- 2. 명언 섹션 -->
       <p class="absolute
                 top-[240px] left-1/2 -translate-x-1/2 scale-x-110
-                font-명언 font-bold text-[22px] leading-[1] text-[#F5DF4D]">
-      "연습은 어제의 당신보다 당신을 더 낫게 만든다."
+                font-명언 font-bold text-[22px] leading-[1] text-[#F5DF4D]
+                md:top-[350px] md:text-[30px] md:scale-x-125">
+        "연습은 어제의 당신보다 당신을 더 낫게 만든다."
       </p>
 
-      <!-- 3. 메인 명언 섹션 / 따옴표 -->
-      <div class="text-white text-center space-y-1">
-  <p class="font-bold">1만 시간의 법칙<span class="font-light">은</span></p>
-  <p class="font-light">어떤 분야의 전문가가 되기 위해서는</p>
-  <p class="font-light">최소한 1만 시간의 훈련이 필요하다는 법칙이다</p>
+      <!-- 3. 메인 명언 섹션 -->
+      <div class="text-white text-center mt-20 md:mt-[120px] 
+      md:text-[25px] tracking-wide">
+        <p class="font-bold">
+          1만 시간의 법칙<span class="font-light">은</span>
+        </p>
+        <p class="font-light">어떤 분야의 전문가가 되기 위해서는</p>
+        <p class="font-light">최소한 1만 시간의 훈련이 필요하다는 법칙이다</p>
+      </div>
+
+      <!-- 따옴표 이미지 -->
+      <img
+        src="./images/quotes.png"
+        alt="따옴표"
+        class="absolute
+               w-[370px] h-[22px]
+               top-[405px] left-1/2 -translate-x-1/2
+               md:w-[520px] md:h-[30px] md:top-[580px]"/>
+
+     <!-- 4. 포부글 / 입력형 박스 -->
+<div class="mt-20 md:mt-[140px] tracking-wide">
+
+  <!-- MOBILE (3줄) -->
+  <div class="space-y-4 md:hidden">
+    <p class="text-white text-center">
+      나는
+      <span class="px-11 py-3 bg-white text-[#BABCBE] rounded-md text-[14px] tracking-wide">
+        예)프로그래밍</span>
+       전문가가 될 것이다.
+      </p>
+    <p class="text-white text-center">
+      그래서 앞으로 매일 하루에
+    </p>
+    <p class="text-white text-center">
+      <span class="px-12 py-3 bg-white text-[#BABCBE] rounded-md text-[14px] tracking-wide">
+        예)5시간 </span>
+      시간씩 훈련할 것이다.
+    </p>
+  </div>
+
+  <!-- TABLET (2줄) -->
+  <div class="hidden md:flex flex-col items-center space-y-6 text-[24px] 
+              font-normal">
+    <p class="text-white text-center">나는
+      <span class="px-11 py-3 bg-white text-[#BABCBE] rounded-md text-[18px]">
+        예)프로그래밍
+      </span>
+      전문가가 될 것이고
+    </p>
+
+    <p class="text-white text-center">
+      앞으로 매일
+      <span class="px-11 py-3 bg-white text-[#BABCBE] rounded-md text-[18px]">
+        예)5시간 </span>
+      씩 훈련할 것이다.
+    </p>
+  </div>
 </div>
 
-
-
-        <!-- 입력칸 / 버튼들 -->
-      
-
+  
       <!-- 4. 5110 프로그램 설명 -->
-      <section class="poster-info">
+       <div class="text-center ">
+      <div class="mt-20 bg-[#FCEE21] rounded-xl px-6 py-4 inline-block
+                  md:px-6 md:py-4">
+  <p class="text-[#5B2386] font-bold text-[18px] leading-tight font-bold">
+    나는 며칠 동안 훈련을 해야
+  </p>
+  <p class="text-[#5B2386] font-bold text-[18px] leading-tight ">
+    1만 시간이 될까?
+  </p>
+</div>
+</div>
         <!-- 설명 + 버튼 두개 -->
       </section>
     </div>
