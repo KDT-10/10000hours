@@ -46,7 +46,6 @@ body {
   z-index: 2;
 }
 /* 문구1 */
-
 .quote-text {
   font-family: "tvN Enjoystories", "tvn 즐거운이야기", cursive;
   font-size: 22px;
@@ -54,6 +53,125 @@ body {
   color: #f5df4d;
   text-align: center;
   line-height: 110%;
+}
+
+.quote-box {
+  position: relative;
+  background-color: #044a0c;
+  padding: 12px 40px;
+  border-radius: 8px;
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+/* 따옴표 작업 */
+.quote-mark {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.quote-mark.left {
+  margin-right: 12px;
+  color: #f3ee21;
+  opacity: 0.3;
+}
+
+.quote-mark.right {
+  margin-left: 12px;
+  color: #f3ee21;
+  opacity: 0.3;
+}
+
+/* 따옴표 내부에 적을 거 여기에다 작업 */
+.description-text {
+  text-align: center;
+  font-family: "GmarketSans", "Gmarket Sans", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  color: white;
+}
+
+.description-text .line {
+  display: block;
+  margin: 4px 0;
+  font-weight: 400;
+}
+
+.description-text .bold {
+  font-weight: 700;
+}
+
+.last-content {
+  margin-top: 40px;
+}
+
+/* .mobile-content {
+  width: 100%;
+  background: #044a0c;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+} */
+
+.mobile-center {
+  padding: 10px;
+  color: white;
+  font-family: "GmarketSans", "Gmarket Sans", sans-serif;
+  text-align: center;
+  line-height: 140%;
+  font-size: 18px;
+}
+
+.mobile-center p {
+  margin: 8px 0;
+}
+
+/* 인풋박스 집어넣기 */
+.input-box {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #babcbe;
+  padding: 6px 16px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-family: "GmarketSans", "Gmarket Sans", sans-serif;
+  line-height: 100%;
+}
+
+/* 버튼 */
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.center-btn {
+  background-color: #ffe93f;
+  color: #5b2386;
+  padding: 20px;
+  width: 241px;
+  height: 68px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.click-icon {
+  width: 43px;
+  height: 48px;
 }
 
 @media (min-width: 1024px) {
