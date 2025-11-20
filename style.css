@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  background: #044a0c;
+  color: #fff;
+  text-align: center;
+  width: 1920px;
+  height: 1963px;
+  opacity: 1;
+}
+
+.img {
+  width: 564px;
+  height: 112px;
+  top: 273px;
+  left: 678px;
+  opacity: 1;
+}
+
+div {
+  margin: 100px;
+}
+
+.id-1 {
+  font-family: tvN Enjoystories;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #f5df4d;
+}
+
+.id-2 {
+  font-family: Gmarket Sans;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.id-3 {
+  font-family: Gmarket Sans;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.id-4 {
+  font-family: Gmarket Sans;
+  font-weight: 400;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+p {
+  font-family: Gmarket Sans;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+.go-btn {
+  background: #fcee21;
+  color: #5b2386;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px 50px;
+  border-radius: 50px;
+  margin: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+.small-btn {
+  background: #ffffff;
+  color: #5b2386;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px 50px;
+  border-radius: 50px;
+  margin: 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+strong {
+  font-family: Gmarket Sans;
+  font-weight: 700;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.name-box {
+  display: inline-block;
+  background: white;
+  color: gray;
+  border-radius: 7px;
+  width: 228px;
+  height: 57px;
+  left: 870px;
+  top: 899px;
+}
