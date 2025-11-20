@@ -95,11 +95,21 @@ container {
 }
 /* 메인 박스 -끝- */
 
-/*타이틀 이미지 박스*/
+/*타이틀 이미지들 */
 .title-images {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
+  margin-top: 15%;
+  margin-bottom: 15%;
   flex-wrap: wrap;
 }
+.img-10000hour {
+  position: absolute;
+}
+.img-clock {
+  position: absolute;
+}
+/* 타이틀 이미지 -끝- */
+
+/* 폰트 */
