@@ -1,54 +1,64 @@
  body {
    background-color: #044a0c;
-   font-size: 16px;
+   font-size: 4.26667vw;
    color: white;
    font-family: 'Gmarket Sans TTF';
  }
 @media (min-width: 320px) and (max-width: 374.9px) {
   .img-10000hour {
-    width: 70%;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
-    width: 32%;
+    width: 32vw;
     height: auto;
   }
   .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 9vw;
+    margin-bottom: 6vw;
   }
   .font-style-sub-title {
-  font-size: 1.88vw;
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 78vw;
   }
   .text-center {
-    font-size: 1.25vw;
+    font-size: 4.25vw;
   }
   .calculate-text {
-    font-size: 1.25vw;
+    font-size: 4.25vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
   }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
-    font-size: 1.25vw;
+    width: 47.575vw;
+    height: 11.5625vw;
+    font-size: 4.25vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
+  font-size: 4.25vw;
   margin: 0.3125vw 0.15625vw;
   border-radius: 56px;
   }
 }
 @media (min-width: 375px) and (max-width: 424.9px) {
   .img-10000hour {
-    width: 70%;
+    width: 25vw;
     height: auto;
   }
   .img-clock {
-    width: 35%;
+    width: 32vw;
     height: auto;
   }
     .title-images {
@@ -59,19 +69,9 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .text-center {
-    font-size: 1.25vw;
-  }
-  .calculate-text {
-    font-size: 1.25vw;
-  }
   .tying-form {
     width: 11.875vw;
     height: 2.969vw;
-    font-size: 1.25vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
@@ -82,11 +82,11 @@
 }
 @media (min-width: 425px) and (max-width: 767.9px) {
   .img-10000hour {
-    width: 70%;
+    width: 25vw;
     height: auto;
   }
   .img-clock {
-    width: 35%;
+    width: 32vw;
     height: auto;
   }
     .title-images {
@@ -97,19 +97,9 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .text-center {
-    font-size: 1.25vw;
-  }
-  .calculate-text {
-    font-size: 1.25vw;
-  }
   .tying-form {
     width: 11.875vw;
     height: 2.969vw;
-    font-size: 1.25vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
@@ -120,11 +110,11 @@
 }
 @media (min-width: 768px) and (max-width: 1023.9px) {
   .img-10000hour {
-    width: 70%;
+    width: 25vw;
     height: auto;
   }
   .img-clock {
-    width: 30%;
+    width: 30vw;
     height: auto;
   }
     .title-images {
@@ -135,19 +125,9 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .text-center {
-    font-size: 1.25vw;
-  }
-  .calculate-text {
-    font-size: 1.25vw;
-  }
   .tying-form {
     width: 11.875vw;
     height: 2.969vw;
-    font-size: 1.25vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
@@ -158,11 +138,11 @@
 }
 @media (min-width: 1024px) and (max-width: 1439.9px) {
   .img-10000hour {
-    width: 55%;
+    width: 55vw;
     height: auto;
   }
   .img-clock {
-    width: 25%;
+    width: 25vw;
     height: auto;
   }
     .title-images {
@@ -171,21 +151,10 @@
   }
   .main-box {
     margin-top: 2vw;
-    margin-bottom: 2vw;
-  }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .text-center {
-    font-size: 1.25vw;
-  }
-  .calculate-text {
-    font-size: 1.25vw;
-  }
+    margin-bottom: 2vw;  }
   .tying-form {
     width: 11.875vw;
     height: 2.969vw;
-    font-size: 1.25vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
@@ -196,11 +165,11 @@
 }
 @media (min-width: 1440px) and (max-width: 1919.9px) {
   .img-10000hour {
-    width: 40%;
+    width: 40vw;
     height: auto;
   }
   .img-clock {
-    width: 20%;
+    width: 20vw;
     height: auto;
   }
     .title-images {
@@ -211,19 +180,9 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .text-center {
-    font-size: 1.25vw;
-  }
-  .calculate-text {
-    font-size: 1.25vw;
-  }
   .tying-form {
     width: 11.875vw;
     height: 2.969vw;
-    font-size: 1.25vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
@@ -234,11 +193,11 @@
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
   .img-10000hour {
-    width: 29%;
+    width: 29vw;
     height: auto;
   }
   .img-clock {
-    width: 13.5%;
+    width: 13.5vw;
     height: auto;
   }
   .title-images {
@@ -249,15 +208,6 @@
     margin-top: 2vw;
     margin-bottom: 2vw;
   }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .text-center {
-    font-size: 1.25vw;
-  }
-  .calculate-text {
-    font-size: 1.25vw;
-  }
   .tying-form {
     width: 11.875vw;
     height: 2.969vw;
@@ -265,7 +215,6 @@
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
   margin: 0.3125vw 0.15625vw;
   border-radius: 56px;
   }
@@ -320,7 +269,6 @@
 .qoutes {
   display: flex;
   position: absolute;
-  width: 25vw;
 }
 .hand-cursor {
   display: flex;
@@ -345,13 +293,17 @@
 /* 폰트 -끝- */
 
 /* 계산칸 */
+.calculate-box {
+  display: flex;
+}
 .calculate-text {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 0fr;
-  grid-template-rows: auto;
+  display: flex;
   font-family: 'Gmarket Sans TTF';
-  align-items: center;
   justify-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 .tying-form {
   border: none;
