@@ -47,7 +47,7 @@ body {
 }
 /* 문구1 */
 .quote-text {
-  font-family: "tvN Enjoystories", "tvn 즐거운이야기", sans-serif;
+  font-family: "tvn 즐거운이야기", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #f5df4d;
@@ -87,7 +87,7 @@ body {
 /* 따옴표 내부에 적을 거 여기에다 작업 */
 .description-text {
   text-align: center;
-  font-family: "GmarketSans", "Gmarket Sans", sans-serif;
+  font-family: "G마켓 산스" sans-serif;
   font-size: 14px;
   line-height: 100%;
   color: white;
@@ -111,7 +111,7 @@ body {
 .mobile-center {
   padding: 10px;
   color: white;
-  font-family: "GmarketSans", "Gmarket Sans", sans-serif;
+  font-family: "G마켓 산스" sans-serif;
   text-align: center;
   line-height: 140%;
   font-size: 18px;
@@ -129,9 +129,9 @@ body {
   background: white;
   color: #babcbe;
   padding: 6px 16px;
-  border-radius: 12px;
+  border-radius: 5px;
   font-weight: 700;
-  font-family: "GmarketSans", "Gmarket Sans", sans-serif;
+  font-family: "G마켓 산스" sans-serif;
   line-height: 100%;
 }
 
@@ -145,21 +145,19 @@ body {
   margin-top: 20px;
 }
 
+/* 데스크탑 반응웹페이지에서 내가 원하는 사이즈로 안바뀌는 것 수정필요 */
 .center-btn {
-  background-color: #ffe93f;
-  color: #5b2386;
-  padding: 20px;
   width: 241px;
   height: 68px;
+  background-color: #ffe93f;
+  color: #5b2386;
   border-radius: 20px;
   font-size: 18px;
   font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  cursor: pointer;
 }
 
 .click-icon {
@@ -169,7 +167,7 @@ body {
 .end-section {
   text-align: center;
   color: #ffffff;
-  font-family: "Gmarket Sans", sans-serif;
+  font-family: "G마켓 산스" sans-serif;
   padding: 40px 20px;
 }
 
@@ -215,31 +213,55 @@ body {
 }
 
 .go-btn {
-  background-color: #ffe93f;
-  color: #5b2386;
   width: 186px;
   height: 40px;
+  background-color: #ffe93f;
+  color: #5b2386;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .share-btn {
+  width: 92px;
+  height: 40px;
+
   background-color: #ffffff;
   color: #5b2386;
-  width: 186px;
-  height: 40px;
+
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {
-  .container {
-    height: 350px;
+  .center-btn {
+    width: 356px;
+    height: 66px;
+    font-size: 22px;
   }
 
-  .clock {
-    width: 261px;
-    height: 205px;
+  .click-icon {
+    width: 64px;
+    height: 72px;
   }
 
-  .title {
-    width: 564px;
-    height: 112px;
+  .go-btn {
+    width: 356px;
+    height: 66px;
+    font-size: 20px;
+  }
+
+  .share-btn {
+    width: 191px;
+    height: 66px;
+    font-size: 20px;
   }
 }
