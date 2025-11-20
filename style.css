@@ -13,6 +13,34 @@
     width: 32%;
     height: auto;
   }
+  .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
+  }
 }
 @media (min-width: 375px) and (max-width: 424.9px) {
   .img-10000hour {
@@ -22,6 +50,34 @@
   .img-clock {
     width: 35%;
     height: auto;
+  }
+    .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
   }
 }
 @media (min-width: 425px) and (max-width: 767.9px) {
@@ -33,6 +89,34 @@
     width: 35%;
     height: auto;
   }
+    .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1023.9px) {
   .img-10000hour {
@@ -42,6 +126,34 @@
   .img-clock {
     width: 30%;
     height: auto;
+  }
+    .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1439.9px) {
@@ -53,6 +165,34 @@
     width: 25%;
     height: auto;
   }
+    .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
+  }
 }
 @media (min-width: 1440px) and (max-width: 1919.9px) {
   .img-10000hour {
@@ -62,6 +202,34 @@
   .img-clock {
     width: 20%;
     height: auto;
+  }
+    .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
   }
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
@@ -84,9 +252,6 @@
   .font-style-sub-title {
   font-size: 1.88vw;
   }
-  .quotes {
-    width: 70%;
-  }
   .text-center {
     font-size: 1.25vw;
   }
@@ -108,7 +273,7 @@
 /* 반응형 설정 -끝- */
 
  /* 바탕 */
-container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,6 +320,7 @@ container {
 .qoutes {
   display: flex;
   position: absolute;
+  width: 25vw;
 }
 .hand-cursor {
   display: flex;
