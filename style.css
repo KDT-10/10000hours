@@ -1,6 +1,38 @@
 .container {
   background-color: #044a0c;
   display: flex;
-  justify-content: center;
-  text-align: center;
+  width: 360px;
+  height: 1081px;
+}
+
+.header {
+  position: relative;
+  display: inline-block;
+}
+
+.clock {
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+  left: 118px;
+  top: 65px;
+}
+
+.clock img {
+  display: block;
+  width: 125px;
+  height: 126px;
+}
+
+.title {
+  position: relative;
+  z-index: 1;
+  top: 100px;
+  left: 47px;
+}
+
+.title img {
+  display: block;
+  height: 53px;
+  width: 267px;
 }
