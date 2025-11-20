@@ -145,7 +145,6 @@ input {
   font-size: 0.875rem;
   color: var(--btn-font-color);
   font-weight: 700;
-  transition: all 0.3s ease;
 }
 .btn:hover {
   transform: translate(-5px, -5px);
