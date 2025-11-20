@@ -5,6 +5,21 @@ body {
   font-family: "tvNEnjoystories";
   src: url("../fonts/tvN 즐거운이야기 Light.ttf") format("truetype");
 }
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .title {
   width: 90%;
   max-width: 390px;
@@ -47,12 +62,48 @@ body {
 }
 
 .sub-title {
-  justify-content: center;
-  align-items: center;
   text-align: center;
-  font-size: 22px;
+  font-size: clamp(22px, 5vw, 36px);
   color: #f5df4d;
   font-family: "tvNEnjoystories";
-  line-height: 100%;
-  vertical-align: middle;
+  line-height: 1.2;
+  margin: clamp(10px, 1vw, 20px) 0;
+}
+.law-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.law-wrapper {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* 텍스트 스타일 */
+.law-explain {
+  font-size: clamp(14px, 2vw, 24px);
+  color: #ffffff;
+  font-family: GmarketSansMedium;
+  margin: 0;
+  line-height: 1.4;
+  position: relative;
+  z-index: 2;
+}
+
+/* 볼드 텍스트 */
+.law-explain strong {
+  font-family: GmarketSansBold;
+  font-weight: 700;
+}
+.quotes {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: clamp(300px, 30vw, 400px);
+  opacity: 0.7;
+  z-index: 1;
 }
