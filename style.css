@@ -17,6 +17,9 @@ button {
 input {
   border: none;
 }
+input:focus {
+  outline: none;
+}
 
 :root {
   --main-color: #fcee21;
@@ -116,9 +119,14 @@ input {
 }
 
 .text-input {
-  width: 9.75rem;
+  width: 7.75rem;
   height: 2.25rem;
   border-radius: 7px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.text-input:focus {
+  box-shadow: 0 0 5px 5px skyblue;
 }
 .text-input::placeholder {
   font-family: "GmarketSans";
