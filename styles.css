@@ -2,11 +2,10 @@ body {
   background: #044a0c;
   margin: 50;
   padding: 0;
+  width: 1920px;
+  height: 1917px;
 }
 .header {
-  width: 530px;
-  height: 112px;
-  color: white;
   display: grid;
   place-items: center;
   font-weight: bold;
@@ -15,14 +14,27 @@ body {
 .header .title {
   width: 530px;
   height: 112px;
-  top: 20px;
-  left: 20px;
+  top: 273px;
+  left: 678px;
 }
 .header .clock {
   width: 221px;
   height: 225px;
-  top: 20px;
-  left: 20px;
+  top: 199px;
+  left: 830px;
+}
+.container {
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  position: absolute;
+}
+
+.container .quotes {
+  width: 486px;
+  height: 40px;
+  top: 510px;
+  left: 717px;
 }
 
 @font-face {
