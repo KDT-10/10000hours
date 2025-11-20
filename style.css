@@ -1,1 +1,163 @@
- 
+:root {
+  --bg-main: #044a0c;
+  --yellow: #fcee21;
+  --purple: #5b249c;
+  --white: #ffffff;
+  --gray-text: #e6e6e6;
+  --input-bg: #f6f6f6;
+  --input-text: #555555;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  background: var(--bg-main);
+}
+
+.container {
+  width: 1920px;
+  min-height: 1963px;
+  margin: 0 auto;
+  background: var(--bg-main);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.clock {
+  position: absolute;
+  width: 261px;
+  height: 265px;
+  top: 197px;
+  left: 830px;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.clock img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.title {
+  position: absolute;
+  width: 564px;
+  height: 112px;
+  top: 273px;
+  left: 678px;
+  z-index: 2;
+}
+
+.title img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.top-quote {
+  width: 100%;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.top-quote img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+.main {
+  width: 100%;
+  max-width: 1120px;
+  text-align: center;
+  color: var(--white);
+  padding: 0 24px 120px;
+}
+
+.law {
+  max-width: 480px;
+  margin: 0 auto 56px;
+}
+
+.law-icon {
+  display: block;
+  margin: 0 auto 8px;
+}
+
+.law-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.law-desc {
+  font-size: 13px;
+  color: var(--gray-text);
+  line-height: 1.6;
+}
+
+.form {
+  font-size: 15px;
+  color: var(--gray-text);
+  line-height: 2.4;
+  margin-bottom: 40px;
+}
+
+.input-text {
+  display: inline-block;
+  min-width: 160px;
+  padding: 8px 16px;
+  margin: 0 4px;
+  border-radius: 24px;
+  border: none;
+  background: var(--input-bg);
+  color: var(--input-text);
+  font-size: 14px;
+}
+
+.input-text::placeholder {
+  color: var(--input-text);
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 72px;
+}
+
+.question-btn {
+  padding: 0 40px;
+  height: 64px;
+  border-radius: 999px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--yellow);
+}
+
+.question-btn img {
+  display: block;
+  height: 24px;
+}
+
+.question-hand-img {
+  width: 40px;
+  height: auto;
+  display: block;
+}
