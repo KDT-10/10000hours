@@ -7,21 +7,49 @@
   <title>1만 시간의 법칙</title>
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <style>
+    /* GmarketSans */
     @font-face {
-      font-family: "tvNEnjoystories";
-      src: url("../fonts/tvNEnjoystoriesMedium.ttf");
+      font-family: "GmarketSans";
+      src: url("../fonts/GmarketSansTTFLight.ttf") format("woff");
+      font-weight: 300;
     }
 
     @font-face {
       font-family: "GmarketSans";
-      src: url("../fonts/GmarketSansTTFMedium.ttf");
+      src: url("../fonts/GmarketSansTTFMedium.ttf") format("woff");
+      font-weight: 500;
+    }
+
+    @font-face {
+      font-family: "GmarketSans";
+      src: url("../fonts/GmarketSansTTFBold.ttf") format("woff");
+      font-weight: 700;
+    }
+
+    /* tvNEnjoystories */
+    @font-face {
+      font-family: "tvNEnjoystories";
+      src: url("../fonts/tvNEnjoystoriesLight.ttf");
+      font-weight: 300;
+    }
+
+    @font-face {
+      font-family: "tvNEnjoystories";
+      src: url("../fonts/tvNEnjoystoriesMedium.ttf");
+      font-weight: 500;
+    }
+
+    @font-face {
+      font-family: "tvNEnjoystories";
+      src: url("../fonts/tvNEnjoystoriesBold.ttf");
+      font-weight: 700;
     }
   </style>
 </head>
 
 <body>
   <div class="bg-[#044A0C]">
-    <div class="px-6 flex flex-col items-center space-y-12 py-16">
+    <div class="px-6 flex flex-col items-center space-y-12 py-16 sm:space-y-20">
       <div class="relative w-[16.6875rem] h-[7.875rem] sm:w-[35.25rem] sm:h-[16.5rem]">
         <img class="absolute w-full top-[50%] translate-y-[-50%]" src="../images/title.png" alt="1만 시간의 법칙">
         <img class="absolute h-full left-[50%] translate-x-[-50%]" src="../images/clock.png" alt="시계">
@@ -30,7 +58,7 @@
       <div class="flex font-[GmarketSans] items-center">
         <p class="text-[#FCEE214D] text-5xl -mb-10 -mr-4">“</p>
         <div class="text-white text-sm flex flex-col items-center space-y-2">
-          <p><strong class="">1만 시간의 법칙</strong>은</p>
+          <p><strong>1만 시간의 법칙</strong>은</p>
           <p>어떤 분야의 전문가가 되기 위해서는</p>
           <p>최소한 1만 시간의 훈련이 필요하다는 법칙이다.</p>
         </div>
