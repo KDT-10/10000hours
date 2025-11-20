@@ -47,7 +47,7 @@ body {
 }
 /* 문구1 */
 .quote-text {
-  font-family: "tvN Enjoystories", "tvn 즐거운이야기", cursive;
+  font-family: "tvN Enjoystories", "tvn 즐거운이야기", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #f5df4d;
@@ -95,8 +95,9 @@ body {
 
 .description-text .line {
   display: block;
-  margin: 4px 0;
+  margin: 6px 0;
   font-weight: 400;
+  line-height: 120%;
 }
 
 .description-text .bold {
@@ -106,14 +107,6 @@ body {
 .last-content {
   margin-top: 40px;
 }
-
-/* .mobile-content {
-  width: 100%;
-  background: #044a0c;
-  border-radius: 30px;
-  padding: 20px;
-  position: relative;
-} */
 
 .mobile-center {
   padding: 10px;
@@ -172,6 +165,67 @@ body {
 .click-icon {
   width: 43px;
   height: 48px;
+}
+.end-section {
+  text-align: center;
+  color: #ffffff;
+  font-family: "Gmarket Sans", sans-serif;
+  padding: 40px 20px;
+}
+
+.end-top {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.end-bold {
+  font-weight: 700;
+  color: #f5df4d;
+}
+
+.end-middle {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.days-bold {
+  font-size: 46px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.end-btn-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.go-btn,
+.share-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.go-btn {
+  background-color: #ffe93f;
+  color: #5b2386;
+  width: 186px;
+  height: 40px;
+}
+
+.share-btn {
+  background-color: #ffffff;
+  color: #5b2386;
+  width: 186px;
+  height: 40px;
 }
 
 @media (min-width: 1024px) {
