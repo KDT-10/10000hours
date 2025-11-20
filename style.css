@@ -76,18 +76,18 @@
     margin-top: 8vw;
     margin-bottom: 3vw;
   }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
   .quotes {
     width: 70%;
   }
   .text-center {
     font-size: 1.25vw;
-  }
-  .font-style-sub-title {
-  font-size: 1.88vw;
-  }
-  .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
