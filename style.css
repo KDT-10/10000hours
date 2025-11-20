@@ -8,14 +8,6 @@ body {
   opacity: 1;
 }
 
-.img {
-  width: 564px;
-  height: 112px;
-  top: 273px;
-  left: 678px;
-  opacity: 1;
-}
-
 div {
   margin: 100px;
 }
@@ -31,10 +23,21 @@ div {
   color: #f5df4d;
 }
 
-.id-2 {
+.overlay-text {
   font-family: Gmarket Sans;
   font-weight: 400;
   font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+strong {
+  font-family: Gmarket Sans;
+  font-weight: 700;
+  font-size: 24px;
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
@@ -89,24 +92,41 @@ p {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-strong {
-  font-family: Gmarket Sans;
-  font-weight: 700;
-  font-size: 24px;
-  leading-trim: NONE;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.name-box {
+input {
   display: inline-block;
   background: white;
-  color: gray;
   border-radius: 7px;
   width: 228px;
   height: 57px;
   left: 870px;
   top: 899px;
+  text-align: center;
+  vertical-align: middle;
+  color: #babcbe;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Gmarket Sans;
+  text-align: center;
+  vertical-align: middle;
+}
+.i1 {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  left: 660px;
+  top: 50px;
+}
+
+.i2 {
+  position: absolute;
+  height: auto;
+  left: 720px;
+  top: 530px;
+}
+
+.i3 {
+  position: absolute;
+  height: auto;
+  left: 1250px;
+  top: 1000px;
 }
