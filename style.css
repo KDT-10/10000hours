@@ -1,6 +1,7 @@
  body {
    background-color: #044a0c;
    font-size: 16px;
+   color: white;
  }
 @media (min-width: 320px) and (max-width: 374.9px) {
   .img-10000hour {
@@ -64,12 +65,35 @@
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
   .img-10000hour {
-    width: 30%;
+    width: 29%;
     height: auto;
   }
   .img-clock {
-    width: 15%;
+    width: 13.5%;
     height: auto;
+  }
+  .title-images {
+    margin-top: 8vw;
+    margin-bottom: 3vw;
+  }
+  .quotes {
+    width: 70%;
+  }
+  .text-center {
+    font-size: 1.25vw;
+  }
+  .font-style-sub-title {
+  font-size: 1.88vw;
+  }
+  .main-box {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+  .calculate-btn {
+  padding: 0.78125vw 2.552086vw;
+  font-size: 1.25vw;
+  margin: 0.3125vw 0.15625vw;
+  border-radius: 56px;
   }
 }
 /* 반응형 설정 -끝- */
@@ -89,19 +113,17 @@ container {
 .main-box { 
     display: flex;
     gap: 10px;
-    width: 100%;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 .overview-box {
   display: flex;
-  width: 80%;
-  height: auto;
   flex-direction: column;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 /* 박스 -끝- */
 
@@ -110,8 +132,6 @@ container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15%;
-  margin-bottom: 15%;
   flex-wrap: wrap;
 }
 .img-10000hour {
@@ -126,7 +146,6 @@ container {
 .qoutes {
   display: flex;
   position: absolute;
-  width: 90%;
 }
 .hand-cursor {
   display: flex;
@@ -135,33 +154,32 @@ container {
 
 /* 폰트 */
 .font-style {
-  font-family: Gmarket Sans TTF;
+  font-family: 'Gmarket Sans TTF';
   color: white;
 }
 .font-style-sub-title {
-  font-family: 'tvN Enjoystories Bold', sans-serif;
-  font-size: 3rem;
+  font-family: 'tvN Enjoystories';
+  font-weight: normal;
   color: #fcee21;
 }
 .text-center {
-  padding-left: 14%;
-  padding-right: 14%;
+  font-family: 'Gmarket Sans TTF';
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 /* 폰트 -끝- */
 
 /* 버튼 스타일 */
 .calculate-btn {
   background-color: #fcee21;
+  font-family: 'Gmarket Sans TTF';
+  font-weight: 700;
   border: none;
   color: #5b2386;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
-  border-radius: 12px;
 }
 .bold {
   font-weight: bold;
