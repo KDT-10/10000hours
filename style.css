@@ -2,6 +2,7 @@
    background-color: #044a0c;
    font-size: 16px;
    color: white;
+   font-family: 'Gmarket Sans TTF';
  }
 @media (min-width: 320px) and (max-width: 374.9px) {
   .img-10000hour {
@@ -89,6 +90,14 @@
   .text-center {
     font-size: 1.25vw;
   }
+  .calculate-text {
+    font-size: 1.25vw;
+  }
+  .tying-form {
+    width: 11.875vw;
+    height: 2.969vw;
+    font-size: 1.25vw;
+  }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
   font-size: 1.25vw;
@@ -169,6 +178,22 @@ container {
 }
 /* 폰트 -끝- */
 
+/* 계산칸 */
+.calculate-text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0fr;
+  grid-template-rows: auto;
+  font-family: 'Gmarket Sans TTF';
+  align-items: center;
+  justify-items: center;
+}
+.tying-form {
+  border: none;
+  text-align: center;
+  border-radius: 7px;
+}
+/* 계산칸 -끝- */
+
 /* 버튼 스타일 */
 .calculate-btn {
   background-color: #fcee21;
@@ -181,6 +206,5 @@ container {
   display: inline-block;
   cursor: pointer;
 }
-.bold {
-  font-weight: bold;
-}
+
+/* 버튼 스타일 - 끝 - */
