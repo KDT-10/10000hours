@@ -92,7 +92,8 @@
   left: 25px;
   border-radius: 7px;
 }
-.programing {
+.box-text {
+  text-align: center;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0%;
