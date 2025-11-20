@@ -2,9 +2,6 @@
    background-color: #044a0c;
  }
 @media (min-width: 320px) and (max-width: 374.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
@@ -15,9 +12,6 @@
   }
 }
 @media (min-width: 375px) and (max-width: 424.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
@@ -28,9 +22,6 @@
   }
 }
 @media (min-width: 425px) and (max-width: 767.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
@@ -41,9 +32,6 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1023.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
@@ -54,9 +42,6 @@
   }
 }
 @media (min-width: 1024px) and (max-width: 1439.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
@@ -67,9 +52,6 @@
   }
 }
 @media (min-width: 1440px) and (max-width: 1919.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
@@ -80,9 +62,6 @@
   }
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
-  body {
-    width: 99%;
-  }
   .img-10000hour {
     width: 70%;
     height: auto;
