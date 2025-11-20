@@ -39,7 +39,7 @@ p {
   margin: 31px;
 }
 
-.main_seconds {
+.main_second {
   margin: 31px;
   align-items: center;
 }
@@ -211,5 +211,25 @@ p {
     flex-direction: row;
     justify-content: center;
     gap: 3px;
+  }
+
+  .highlight_big {
+    font-size: 72px;
+    margin: 0 12px;
+  }
+
+  .btn {
+    height: 66px;
+    font-size: 24px;
+  }
+
+  .btn_yellow {
+    width: 356px;
+    background-color: #fcee21;
+  }
+
+  .btn_white {
+    width: 191px;
+    background-color: white;
   }
 }
