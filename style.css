@@ -1,0 +1,16 @@
+ /* 바탕 */
+container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+} 
+/* 바탕 -끝- */
+
+/* 메인 박스 */
+.main-box { 
+  display: flex;
+  gap: 10px;
+}
+/* 메인 박스 -끝- */
