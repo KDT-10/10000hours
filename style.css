@@ -1,0 +1,17 @@
+div#back {
+  background-color: #044a0c;
+}
+
+div.practice {
+  font-family: "tvN Enjoystories";
+  font-size: 36px;
+  text-align: center;
+  color: #f5df4d;
+}
+
+div.Gmarket {
+  font-family: "Gmarket Sans";
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
