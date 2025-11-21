@@ -143,6 +143,8 @@ color: var(--text-dark);
 }
 ```
 
+> **💡 무료 폰트 찾기**: [눈누(noonnu.cc)](https://noonnu.cc/)에서 상업적으로 사용 가능한 다양한 무료 한글 폰트를 찾을 수 있습니다!
+
 ---
 
 ## 📱 반응형 디자인 가이드
@@ -726,6 +728,15 @@ color: var(--text-dark);
 - [MDN - Media Queries](https://developer.mozilla.org/ko/docs/Web/CSS/Media_Queries)
 - [MDN - CSS Transitions](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transitions)
 - [MDN - CSS Animations](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Animations)
+
+### 무료 폰트 리소스
+
+- **[눈누 (noonnu.cc)](https://noonnu.cc/)** - 상업적 이용 가능한 한글 폰트 모음
+  - 1,000개 이상의 무료 한글 폰트 제공
+  - 폰트별 라이선스 정보 명확히 표시
+  - 바탕체, 고딕체 등 다양한 스타일 제공
+  - 웹 폰트 CDN 링크 제공으로 쉽게 적용 가능
+  - 폰트 미리보기 및 테스트 기능 지원
 
 ---
 
