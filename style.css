@@ -76,7 +76,7 @@ body {
 .quote {
   color: #f5df4d;
   font-family: "JoyfulStory";
-  font-size: clamp(22px, 3.5vw, 36px);
+  font-size: 36px;
   text-align: center;
   margin-top: 12px;
 }
@@ -128,7 +128,7 @@ span {
 
 .input-field {
   display: inline-block;
-  background: #fffbe6;
+  background: #ffffff;
   width: auto;
   height: auto;
   border-radius: 7px;
@@ -209,9 +209,13 @@ span {
   .quote {
     font-size: 20px;
   }
-  .btn-training_hour,
   .btn-training,
   .btn-sharing {
     height: 56px;
+  }
+  .btn-training_hour {
+    height: 68px;
+    width: 241px;
+    font-size: 14px;
   }
 }
