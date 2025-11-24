@@ -1,10 +1,7 @@
-body {
-  background-color: #044a0c;
-  transition: all 1s;
-}
 main {
-  width: 95%;
-  padding: 5% 2.5%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
   transition: all 1s;
   background-color: #05300a;
 }
@@ -14,248 +11,221 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 130px;
+  margin: 15% 0;
   position: relative;
   cursor: pointer;
-}
-.header-logo {
-  height: 150px;
   background-color: cadetblue;
 }
 h1 img {
-  width: 100%;
   position: absolute;
   transition: all 0.8s;
 }
 .logo {
-  width: 77%;
+  /* width: 77%; */
+  width: 267px;
   z-index: 1;
 }
 .logobg {
-  width: 33%;
+  /* width: 33%; */
+  width: 125px;
 }
 
-/* content: 여러개 같이 */
+/* - content: 여러개 같이 */
 .FamousPhrase-title,
 .FamousPhrase,
 .form-box,
 .click-box,
 .Result,
 .go-box {
-  margin-bottom: 15%;
+  margin-bottom: 20%;
   background-color: #052509;
 }
-/* font */
+/* : font */
 .FamousPhrase,
 .form-box,
 input[type="text"],
 .Result {
-  font-size: 13px;
+  font-size: px;
 }
 .FamousPhrase,
 .form-box,
 .Result {
   font-weight: 300;
 }
+.form-box,
+.Result {
+  letter-spacing: 1px;
+}
 
 /* 2. 명언 */
 .FamousPhrase-title {
-  font-size: 1.3rem;
+  font-size: 22px;
   transition: all 1s;
+  font-weight: bold;
 }
 .FamousPhrase {
-  width: 99%;
+  width: 100%;
   text-align: center;
-  line-height: 1.5rem;
-  letter-spacing: 0px;
+  line-height: 2rem;
   background: url("../images/quotes.png") no-repeat center;
   transition: all 1s;
 }
 .FamousPhrase b {
-  font-family: "GmarketSansMedium";
-  font-weight: normal;
-  font-size: 14px;
+  font-family: var(--font-medium);
+  font-size: 15px;
 }
 
 /* 3. input: 작성 */
 input[type="text"] {
-  width: 150px;
+  width: 160px;
   padding: 10px 0;
-  color: #aaa;
-  font-size: 13px;
-  font-family: 500;
-  letter-spacing: px;
+  color: var(--text-secondary);
+  text-align: center;
+  border-radius: 7px;
   border: transparent;
-  border-radius: px;
 }
 input[type="text"]:focus {
   outline: none;
+}
+@media (max-width: 767px) {
+  input[type="text"] {
+    width: 160px;
+  }
 }
 
 /* 4. click: 확인 버튼 */
 .click-box {
   display: flex;
   justify-content: center;
+  height: auto;
+}
+.click-box .btn {
+  position: relative;
 }
 .icon-click {
+  position: absolute;
+}
+@media (max-width: 767px) {
+  .click-box .btn {
+    width: 220px;
+    padding: 15px 2rem;
+    line-height: 18px;
+    border-radius: 14px;
+  }
+  .icon-click {
+    width: 43px;
+    height: 48px;
+    right: -45px;
+    bottom: -10px;
+  }
 }
 
 /* 5. Result: 결과 */
 .Result {
-  line-height: 2rem;
+  line-height: 3rem;
 }
 .Result strong {
   display: inline-block;
   vertical-align: middle;
   padding: 0 5px;
-  font-size: 2em;
+  font-size: 24px;
 }
 
 /* 6. Go: 훈련하러 가기 */
 .go-box {
   display: flex;
   justify-content: center;
+  gap: 10px;
 }
-.btn-sharing {
-  margin-left: 10px;
-}
-
-@media (min-width: 500px) {
-  main {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  .header-logo,
-  .FamousPhrase-title,
-  .FamousPhrase,
-  .form-box,
-  .click-box,
-  .Result,
-  .go-box {
-    margin-bottom: 50px;
-  }
-
-  .header-logo {
-    margin-top: 5%;
-  }
-  .FamousPhrase {
-    line-height: 2rem;
-  }
-  .FamousPhrase {
-    letter-spacing: 0.7px;
-  }
-
-  .form-box,
-  .Result {
-    letter-spacing: 1px;
-  }
-  input[type="text"] {
-    width: 170px;
-    padding: 10px 0;
-    font-size: 14px;
-    letter-spacing: 1.5px;
-    border-radius: 7px;
-  }
-
-  .click-box {
-    display: flex;
-    justify-content: center;
-    position: relative;
-  }
-  .icon-click {
-    position: absolute;
-    right: 60px;
-    bottom: -10px;
-  }
-
-  .Result {
-    line-height: 3rem;
-  }
-  .Result strong {
-    font-size: 2em;
-  }
-
-  .FamousPhrase,
-  .form-box,
-  input[type="text"],
-  .Result {
-    font-size: 17px;
+@media (max-width: 767px) {
+  .go-box .btn {
+    padding: 10px 20px;
+    border-radius: 30px;
   }
 }
 
-@media (min-width: 1024px) {
+/* 반응형: 태블릿/데스크톱 버전 */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
   main {
     max-width: 800px;
     padding: 50px;
   }
-  .FamousPhrase-title,
-  .FamousPhrase {
-    margin-bottom: 80px;
-  }
-  .form-box,
-  .click-box,
-  .Result,
-  .go-box {
-    margin-bottom: 100px;
-  }
 
+  /* 1. header: logo */
   .header-logo {
     height: 300px;
-    margin: 50px auto;
+    margin: 20% auto;
   }
   .logo {
     width: 564px;
     height: 112px;
     top: 94px;
-    left: 110px;
+    left: 60px;
   }
   .logobg {
     width: 261px;
     height: 265px;
     top: 20px;
-    left: 260px;
+    left: 210px;
   }
 
-  .FamousPhrase-title {
-    font-size: 34px;
-  }
+  /* : font */
   .FamousPhrase,
+  .FamousPhrase b,
   .form-box,
   input[type="text"],
   .click-box,
   .Result,
   .btn {
     font-size: 24px;
+    font-weight: 300;
   }
 
-  .btn {
-    padding: 0.5rem 2.5rem 0.2rem 2.5rem;
-    line-height: 50px;
-    border-radius: 50px;
+  /* 2. 명언 */
+  .FamousPhrase-title {
+    font-size: 34px;
+  }
+  .FamousPhrase {
+    line-height: 3rem;
+  }
+  .FamousPhrase b {
+    font-size: 25px;
   }
 
+  /* 3. input: 작성 */
+  input[type="text"] {
+    width: 230px;
+  }
+
+  /* 4. click icon */
   .icon-click {
-    right: 50px;
+    width: 64px;
+    height: 72px;
+    right: -65px;
     bottom: -20px;
   }
 
-  .btn-sharing {
-    margin-left: 20px;
+  /* 5. Result: 결과 */
+  .Result {
+    line-height: 5rem;
   }
-}
+  .Result strong {
+    font-size: 72px;
+  }
 
-.form-group input,
-.form-group input[type="password"] {
-  background-color: #f4f5f5;
-  padding: 12px;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid #788991;
-}
-.form-group input[type="text"]:focus,
-.form-group input[type="password"]:focus {
-}
+  /* buutton */
+  .btn {
+    padding: 0.5rem 2.5rem 0.2rem 2.5rem;
+    line-height: 50px;
+    border-radius: 30px;
+  }
 
-.form-group select {
-  appearance: none;
-  background: url("../images/trailing-icon.png") no-repeat right 10px center;
+  /* 버튼들 사이 간격 */
+  .go-box {
+    gap: 20px;
+  }
 }

@@ -1,8 +1,44 @@
+* {
+  box-sizing: border-box;
+}
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 body {
   margin: 0;
+  font-family: var(--font-base);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  text-align: center;
+  transition: all 1s;
+}
+
+:root {
+  /* 배경색 */
+  --bg-primary: #385e1a;
+
+  /* 강조색 */
+  --color-accent: #fcee21;
+  --color-accent-hover: #fdd835;
+  --color-accent-active: #fbc02d;
+
+  /* 텍스트 색상 */
+  --text-primary: white;
+  --text-secondary: #d3d3d3;
+  --text-dark: #333;
+  --text-quote: #f5df4d;
+  --text-accent: #5b2386;
+
+  /* 그림자 */
+  --text-shadow-green: #5e8908;
+  --text-shadow-dark: #1a2800;
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+  /* 폰트 */
+  --font-base: "GMarketSans", sans-serif;
+  --font-quote: "OTEnjoystoriesBA", sans-serif;
+  --font-bold: "GmarketSansBold", sans-serif;
+  --font-medium: "GmarketSansMedium", sans-serif;
 }
 
 @font-face {
@@ -48,45 +84,53 @@ body {
   font-display: swap;
 }
 
-.FamousPhrase,
-.form-box,
-.Result {
-  color: white;
-}
 .FamousPhrase-title {
-  font-family: "OTEnjoystoriesBA";
-  text-align: center;
-  color: #f5df4d;
+  font-family: var(--font-quote);
+  color: var(--text-quote);
 }
 .FamousPhrase,
 .form-box,
 input[type="text"],
 .Result {
-  font-family: "GMarketSans";
-  text-align: center;
+  font-family: var(--font-base);
 }
 .FamousPhrase b,
 .btn,
 .Result strong {
-  font-family: "GmarketSansBold";
+  font-family: var(--font-bold);
+}
+.FamousPhrase,
+.form-box,
+.Result {
+  color: var(--text-primary);
 }
 
 div.go-box button.btn-sharing {
-  background-color: white;
+  background-color: var(--text-primary);
 }
 .btn {
+  color: var(--text-accent);
   font-weight: 700;
   text-align: center;
-  color: #5b2386;
-  background-color: #fcee21;
+  background-color: var(--color-accent);
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 30px;
+  box-shadow: var(--box-shadow-md);
   cursor: pointer;
 }
+.btn:hover {
+  background-color: var(--color-accent-hover);
+}
+.btn:active {
+  background-color: var(--color-accent-active);
+}
+
 .icon {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 3em;
-  height: 3em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
