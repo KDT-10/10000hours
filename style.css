@@ -33,13 +33,14 @@
 body {
   margin: 0;
   background-color: #044a0c;
+  margin-bottom: 120px;
 }
 
 .container {
   padding: 66px 0;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 15px;
 }
 .flex-col-center {
   display: flex;
@@ -116,6 +117,9 @@ body {
   padding: 1px;
   border-radius: 7px;
   border-style: none;
+  font-family: "Gmarket SansM";
+  font-size: 14px;
+  color: #babcbe;
 }
 .box-with-clixk {
   display: flex;
@@ -164,7 +168,7 @@ body {
   letter-spacing: 0%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
   .title {
     width: min(564px, 100%);
     height: 264px;
@@ -181,5 +185,44 @@ body {
   }
   .subtitle {
     font-size: 36px;
+  }
+  .text-whiteBold {
+    font-size: 24px;
+  }
+  .text-whiteLight {
+    font-size: 24px;
+  }
+  .text-purpleBold {
+    font-size: 24px;
+  }
+  .quotes img {
+    width: 493px;
+  }
+  .text-white {
+    font-size: 24px;
+  }
+  .inputbox {
+    width: 228px;
+    height: 57px;
+    font-size: 24px;
+  }
+  .yellowbox-1 {
+    width: 565px;
+    height: 66px;
+  }
+  .yellowbox-2 {
+    width: 356px;
+    height: 66px;
+  }
+  .whitebox {
+    width: 191px;
+    height: 66px;
+  }
+  .click-image img {
+    width: 64px;
+    height: 72px;
+  }
+  .bigger {
+    font-size: 72px;
   }
 }
