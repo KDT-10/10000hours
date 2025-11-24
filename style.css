@@ -2,14 +2,11 @@ body {
   margin: 0;
   background: #385e1a;
   color: #fff;
-  text-align: center;
-  width: 1920px;
-  height: 1963px;
-  opacity: 1;
 }
 
 div {
   margin: 100px;
+  text-align: center;
 }
 
 /* 인용구 폰트 */
@@ -38,7 +35,21 @@ div {
   font-weight: normal;
   font-style: normal;
 }
-.id-1 {
+.title {
+  position: relative;
+  width: 700px;
+  height: auto;
+  left: 30%;
+}
+
+.clock {
+  position: relative;
+  height: auto;
+  left: 5%;
+  top: 70px;
+}
+
+.main {
   font-family: OTEnjoystoriesBA;
   font-weight: 700;
   font-size: 36px;
@@ -47,15 +58,13 @@ div {
   text-align: center;
   vertical-align: middle;
   color: #f5df4d;
-  font-style: italic
-  font-weight: bold
+  font-style: italic;
 }
 
-.overlay-text {
+.text-box {
   font-family: GmarketSansMedium;
   font-weight: 400;
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
@@ -66,24 +75,23 @@ strong {
   font-family: GmarketSansBold;
   font-weight: 700;
   font-size: 24px;
-  leading-trim: NONE;
+
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
 }
 
-.id-3 {
- 
+.span-box {
   font-weight: 700;
   font-size: 72px;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
+  text-align: center;
 }
 
-.id-4 {
- 
+.input-box {
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
@@ -91,14 +99,14 @@ strong {
   vertical-align: middle;
 }
 p {
-  
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
+  text-align: center;
 }
-.go-btn {
+.yellow-btn {
   background: #fcee21;
   color: #5b2386;
   font-size: 24px;
@@ -107,6 +115,7 @@ p {
   border-radius: 50px;
   margin: 20px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 .small-btn {
   background: #ffffff;
@@ -136,37 +145,56 @@ input {
   text-align: center;
   vertical-align: middle;
 }
-.i1 {
-  position: absolute;
-  width: 600px;
+
+.quotes {
+  position: relative;
   height: auto;
-  left: 100px;
+  left: 0px;
+  top: 150px;
+}
+
+.click {
+  position: relative;
+  height: auto;
+  left: 0px;
   top: 50px;
 }
-
-.i2 {
-  position: absolute;
-  height: auto;
-  left: 720px;
-  top: 530px;
-}
-
-.i3 {
-  position: absolute;
-  height: auto;
-  left: 1250px;
-  top: 1000px;
-}
-
-@media (min-width: 768px) {
-  body {
-    width: 100%;
-    height: auto;
-  }
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 768px) {
-  body {
-    width: 100%;
+  .title {
+    position: relative;
+    width: 600px;
     height: auto;
+    left: 10%;
+    top: 250px;
+  }
+  .clock {
+    position: relative;
+    height: auto;
+    left: 30%;
+  }
+  .main {
+    font-size: 36px;
+    white-space: nowrap;
+  }
+  .text-box {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  .span-box {
+    font-size: 48px;
+    white-space: nowrap;
+  }
+  .input-box {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  p {
+    font-size: 18px;
+    white-space: nowrap;
   }
 }
