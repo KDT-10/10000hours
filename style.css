@@ -1,11 +1,21 @@
 @font-face {
-  font-family: '명언';
-  src: url('./TTF/명언font.ttf') format('truetype');
+  font-family: 'font-quote';
+  src: url('./TTF/font-quote.ttf') format('truetype');
   font-weight: 700;
+  font-style: normal;
 }
 
-.font-명언 {
-  font-family: '명언', sans-serif;
+.font-font-quote {
+  font-family: 'font-quote', sans-serif;
 }
 
+@font-face {
+  font-family: 'Gmarket Sans';
+  src: url('./fonts/GmarketSansBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
+.font-gmarket {
+  font-family: 'Gmarket Sans', sans-serif;
+}
