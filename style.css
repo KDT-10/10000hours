@@ -78,6 +78,13 @@
     padding: 3vw 5vw;
     font-size: 4.06976vw;
   }
+  .temporary-box {
+    gap: 1vw;
+    width: 90vw;
+  }
+  .temporary-text {
+    font-size: x-large;
+  }
 }
 @media (min-width: 375px) and (max-width: 424.9px) {
   .img-10000hour {
@@ -670,3 +677,19 @@
   border-radius: 56px;
 }
 /* 공유하기 버튼 스타일 - 끝 - */
+
+/* 결과칸 
+하지만, 결과칸을 산출하는법을 모르기에 텍스트적용으로 보류.
+*/
+.temporary-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Gmarket Sans TTF';
+  text-align: center;
+}
+.temporary-text {
+  font-weight: 800;
+  font: bold;
+}
