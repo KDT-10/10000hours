@@ -188,3 +188,37 @@ div.gongbacksix {
   width: 486px;
   height: 127px;
 }
+
+/*버튼2 스타일*/
+.btns {
+  text-align: center;
+  height: 66px;
+  width: 356px;
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+  color: #5b2386;
+  background-color: #fcee21;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btnt {
+  text-align: center;
+  height: 66px;
+  width: 191px;
+  font-family: "GmarketSansBold";
+  font-size: 24px;
+  color: #5b2386;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*공백7 스타일*/
+div.gongbackseven {
+  text-align: center;
+  width: 486px;
+  height: 279px;
+}
