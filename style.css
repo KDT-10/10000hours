@@ -6,6 +6,7 @@ div.image-container {
   text-align: center;
 }
 
+/*인용구 스타일*/
 @font-face {
   font-family: "OTEnjoystoriesBA";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
@@ -20,6 +21,7 @@ div.practice {
   color: #f5df4d;
 }
 
+/*본문 스타일*/
 @font-face {
   font-family: "GmarketSansBold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
