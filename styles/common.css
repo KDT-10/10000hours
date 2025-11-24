@@ -16,8 +16,6 @@ body {
   max-width: 100%;
   margin: 0 auto;
   padding: 10px;
-  transition: all 1s;
-  background-color: #05300a;
 }
 @media (min-width: 768px) {
   html {
@@ -31,7 +29,7 @@ body {
 
 :root {
   /* 배경색 */
-  --bg-primary: #385e1a;
+  --bg-primary: #044a0c;
 
   /* 강조색 */
   --color-accent: #fcee21;
@@ -90,13 +88,6 @@ body {
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
     format("woff");
   font-weight: 500;
-  font-display: swap;
-}
-@font-face {
-  font-family: "GMarketSans";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
-    format("woff");
-  font-weight: 700;
   font-display: swap;
 }
 
