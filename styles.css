@@ -85,6 +85,11 @@ body {
 .time-input {
   width: 100px;
 }
+@media (max-width: 767px) {
+  input[type="text"] {
+    width: 160px;
+  }
+}
 
 .action-buttons {
   position: relative;
@@ -100,11 +105,19 @@ body {
 }
 
 .icon {
-  display: inline;
+  display: inline-flex;
   top: 50%;
   left: 20%;
   position: relative;
   margin-left: 50px;
+}
+@media (max-width: 767px) {
+  .icon .btn {
+    width: 220px;
+    padding: 15px 2rem;
+    line-height: 18px;
+    border-radius: 14px;
+  }
 }
 
 .Result {
@@ -112,10 +125,9 @@ body {
   text-align: center;
   color: white;
   margin: 50px;
-  font-family: "GmarketSansBold";
-  font-style: initial;
-  font-weight: bold;
+  font-style: normal;
   font-size: 30px;
+  font-family: "GmarketSansBold";
 }
 .second {
   margin-bottom: 100px;
@@ -149,17 +161,22 @@ body {
   width: 191px;
   height: 66px;
 }
-
-/* 태블릿/데스크톱 (768px 이상) */
-@media (min-width: 768px) {
-  .subject-input {
-    width: 180px;
-  }
-
-  .time-input {
-    width: 150px;
+@media (max-width: 767px) {
+  .go .sub {
+    padding: 10px 20px;
+    border-radius: 30px;
   }
 }
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .container: {
+    max-width: 800px;
+    padding: 50px;
+  }
+}
+
 @font-face {
   font-family: "OTEnjoystoriesBA";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
