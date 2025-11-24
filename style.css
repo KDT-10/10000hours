@@ -14,6 +14,20 @@
   font-display: swap;
 }
 
+:root {
+  --bg-primary: #044a0c;
+  --color-btn: #fcee21;
+  --white-box: white;
+
+  --text-primary: white;
+  --text-title: #f5df4d;
+  --text-btn: #5b2386;
+  --text-placeholder: #babcbe;
+
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  --color-accent-focus: 0 0 5px 2px rgba(245, 223, 77, 0.6);
+}
+
 body {
   margin: 0;
   font-size: 16px;
@@ -25,7 +39,7 @@ p {
 }
 
 .background_board {
-  background-color: #044a0c;
+  background-color: var(--bg-primary);
 }
 
 .container {
@@ -42,7 +56,7 @@ p {
 }
 
 .title_text {
-  color: #f5df4d;
+  color: var(--text-title);
   font-family: "JoyfulStory";
   font-size: 1.375rem;
   line-height: 1.5;
@@ -121,7 +135,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--text-primary);
   font-size: 0.875rem;
   text-align: center;
   font-family: "GMarketSans";
@@ -133,7 +147,7 @@ p {
   display: inline-block;
   width: 156px;
   height: 37px;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--white-box);
   border-radius: 7px;
   margin: 0 5px;
   border: none;
@@ -145,7 +159,7 @@ p {
 .box:focus {
   border-color: #f5df4d;
   border-width: 2px;
-  box-shadow: 0 0 5px 2px rgba(245, 223, 77, 0.6);
+  box-shadow: var(--color-accent-focus);
 }
 
 .box,
@@ -155,7 +169,7 @@ p {
 }
 
 .box::placeholder {
-  color: #babcbe;
+  color: var(--text-placeholder);
   font-weight: 500;
 }
 
@@ -173,15 +187,15 @@ p {
   font-weight: 700;
   font-size: 0.875rem;
   font-family: "GMarketSans";
-  color: #5b2386;
-  background-color: #fcee21;
+  color: var(--text-btn);
+  background-color: var(--color-btn);
   cursor: pointer;
   padding: 21px 49px;
   line-height: 1.2;
   border: none;
   word-break: break-all;
   overflow-wrap: break-word;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
   transition: transform 0.1s ease;
 }
 
@@ -190,21 +204,21 @@ p {
   border-radius: 56px;
   font-weight: 700;
   font-size: 0.875rem;
-  color: #5b2386;
+  color: var(--text-btn);
   cursor: pointer;
   border: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow);
   transition: transform 0.1s ease;
 }
 
 .btn_yellow {
   width: 186px;
-  background-color: #fcee21;
+  background-color: var(--color-btn);
 }
 
 .btn_white {
   width: 92px;
-  background-color: white;
+  background-color: var(--white-box);
 }
 
 .btn:active,
@@ -290,12 +304,10 @@ p {
 
   .btn_yellow {
     width: 356px;
-    background-color: #fcee21;
   }
 
   .btn_white {
     width: 191px;
-    background-color: white;
   }
 
   .main_btn {
