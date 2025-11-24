@@ -135,7 +135,7 @@
   padding: 20px;
   border-radius: 17px;
   text-align: center;
-  width: 250px;
+  width: 220px;
   background-color: #fcee21;
   color: #5b2386;
 }
@@ -152,4 +152,15 @@
 .text-5 {
   font-family: "Gmarket SansB";
   font-size: 16px;
+}
+.click-image {
+  position: relative;
+  left: 303px;
+  top: 112px;
+}
+
+.click-image img {
+  display: block;
+  width: 43px;
+  height: auto;
 }
