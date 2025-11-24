@@ -130,4 +130,8 @@ input {
   color: #babcbe;
   background-color: #ffffff;
   border-radius: 10px;
+  padding-top: 10px;
+}
+input::placeholder {
+  color: #babcbe;
 }
