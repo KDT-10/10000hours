@@ -195,6 +195,10 @@ body {
 .click-icon {
   width: 43px;
   height: 48px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 19px;
   transition: transform 0.3s ease;
 }
 .click-icon:hover {
@@ -203,7 +207,7 @@ body {
 .end-section {
   text-align: center;
   color: #ffffff;
-  font-family: "G마켓 산스" sans-serif;
+  font-family: "G마켓 산스", sans-serif;
   padding: 40px 20px;
 }
 
@@ -312,7 +316,7 @@ body {
   .center-btn {
     width: 565px;
     gap: 10px;
-    height: 36px;
+    height: 66px;
     font-size: 24px;
     font-weight: 700;
     white-space: nowrap;
