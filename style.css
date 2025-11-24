@@ -30,14 +30,32 @@
   src: url("./font/GmarketSansTTF/GmarketSansTTFBold.ttf") format("truetype");
   font-weight: 700;
 }
-.body {
+body {
+  margin: 0;
   background-color: #044a0c;
+}
+
+.container {
+  padding: 66px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
   position: relative;
-  width: min(16.75rem, 100%);
-  height: 7.875rem;
+  width: min(268px, 100%);
+  height: 126px;
 }
 .title > img {
   position: absolute;
@@ -46,85 +64,67 @@
   left: 50%;
 }
 .title-img {
-  width: min(16.75rem, 100%);
+  width: min(268px, 100%);
   aspect-ratio: 5 / 1;
 }
 .clock-img {
-  height: min(7.875rem, 100%);
+  height: min(126px, 100%);
   aspect-ratio: 1 / 1;
 }
 
 .subtitle {
-  position: relative;
-  top: 22px;
+  font-family: "tvN EnjoystoriesM";
+  color: #f5df4d;
+  font-size: 22px;
+}
+.text {
   text-align: center;
   letter-spacing: 0%;
-  font-family: "tvN Enjoystories";
-  font-weight: 400;
-  font-size: 22px;
-  color: #f5df4d;
+  line-height: 2.5;
 }
-.block-1 {
-  top: 80px;
+.text-whiteLight {
+  font-family: "Gmarket SansL";
+  font-size: 14px;
+  color: white;
+}
+.text-whiteBold {
+  font-family: "Gmarket SansB";
+  font-size: 14px;
+  color: white;
+}
+.text-white {
+  font-family: "Gmarket SansM";
+  font-size: 14px;
+  color: white;
+}
+
+.quote-container {
+  display: flex;
+  position: relative;
 }
 .quotes {
-  display: flex;
   position: absolute;
   z-index: 0;
-  top: 44px;
-  left: 0;
-  pointer-events: none;
+  top: 50px;
 }
 .quotes img {
   display: block;
   width: 302px;
 }
 
-.type-box {
-  border: 1px solid #8b8a8a;
-  padding: 10px;
-  border-radius: 7px;
+.inputbox {
+  width: 124px;
+  height: 36px;
   text-align: center;
-  width: 130px;
-  color: #babcbe;
+  padding: 1px;
+  border-radius: 10px;
 }
 
-.click-image {
-  position: relative;
-  left: 303px;
-  top: 112px;
+.click-img {
+  width: 42px;
+  height: 48px;
 }
 
-.click-image img {
-  display: block;
-  width: 43px;
-  height: auto;
-}
-/* fix */
-.text-white {
-  position: relative;
-  text-align: center;
-  letter-spacing: 0%;
-  font-family: "Gmarket SansM";
-  font-size: 14px;
-  color: white;
-}
-.text-whiteBold {
-  position: relative;
-  text-align: center;
-  letter-spacing: 0%;
-  font-family: "Gmarket SansB";
-  font-size: 14px;
-  color: white;
-}
-.text-whiteLight {
-  position: relative;
-  text-align: center;
-  letter-spacing: 0%;
-  font-family: "Gmarket SansL";
-  font-size: 14px;
-  color: white;
-}
 .text-purpleBold {
   text-align: center;
   font-family: "Gmarket SansB";
@@ -136,3 +136,22 @@
   border-radius: 56px;
   padding: 13px;
 }
+
+@media (min-width: 768px) {
+  .title {
+    width: min(564px, 100%);
+    height: 264px;
+  }
+  .title-img {
+    width: min(564px, 100%);
+  }
+  .clock-img {
+    height: min(264px, 100%);
+  }
+  .quote {
+    font-size: 96px;
+    margin-top: 64px;
+  }
+  .subtitle {
+    font-size: 36px;
+  }
