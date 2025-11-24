@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "tvN 즐거운이야기"; /* <--- 웹에서 사용할 폰트 이름 */
+  src: url("../tvN10font_TTF/TTF/tvN 즐거운이야기 Medium.ttf")
+    format("truetype");
+  /* 주의: 폰트 파일 경로와 이름은 대소문자까지 정확해야 합니다. */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gmarket";
+  src: url("../tvN10font_TTF/gmarket Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  background-color: #044a0c;
+  /* body 자체를 Flex 컨테이너로 만들고, 전체 콘텐츠를 중앙에 배치 */
+  display: flex;
+  flex-direction: column; /* 자식 요소들을 세로로 쌓음 */
+  align-items: center; /* 가로 축 중앙 정렬 */
+}
+
+.body-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-stack-container {
+  /* 자식 요소들이 이 부모 안에서 절대 위치를 가지게 됨 */
+  /* (선택 사항) Flexbox를 사용하여 중앙 정렬 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-image {
+  top: 400px;
+  left: 1150px;
+  width: 261px;
+  height: 265px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} /* 부모 높이에 맞춤 */
+
+.overlay-image {
+  position: absolute; /* 이 이미지를 절대 위치로 지정 */
+  /* top, left, right, bottom 값을 조절하여 정확한 위치 조정 */
+  /* 예를 들어, 부모의 정중앙에 배치하려면 */
+  top: 85px;
+  width: 564px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 또는 이미지를 부모의 크기에 맞춰서 조절할 수도 있습니다 */
+/* width: 80%; */
+/* height: auto; */
+
+.font-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.font {
+  font-family: "tvN 즐거운이야기";
+  font-size: 36px;
+  color: #f5df4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  font-family: Gmarket Sans;
+  font-size: clamp(14px, 2vw, 18px);
+  line-height: 1.8;
+  letter-spacing: 0%;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.img {
+  top: 510px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-highlight {
+  font-size: 1.5em; /* 크기 */
+  font-weight: 900; /* 굵기 */
+  display: block; /* <- 이 속성이 '1만 시간의 법칙'을 한 줄로 만듭니다. */
+  /* 필요하다면 아래 텍스트와의 간격을 위해 margin-bottom을 추가할 수 있습니다. */
+  margin-bottom: 5px;
+}
+
+/* 전체 텍스트의 행간 간격을 조정하여 두 번째 줄과 세 번째 줄의 간격을 조절합니다. */
+.Text {
+  /* ... 다른 스타일 ... */
+  line-height: 1.6;
+}
+
+.programing {
+  border: gray;
+  background-color: white;
+  width: 228px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: gray;
+  margin-left: 10px; /* 왼쪽 텍스트('나는')와의 간격 */
+  margin-right: 10px;
+}
+
+.text2 {
+  /* ... 기존 스타일 유지 ... */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 새로 추가: 내부 요소를 수평 중앙 정렬 */
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white;
+  margin-top: 100px;
+  /* left: 1200px; <--- 이 속성은 삭제합니다. */
+}
+
+.text3 {
+  /* ... 기존 스타일 유지 ... */
+  display: flex;
+  align-items: center;
+  justify-content: center; /* 새로 추가: 내부 요소를 수평 중앙 정렬 */
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: white; /* 200px 대신 적절한 간격으로 조정 */
+}
+
+.border {
+  /* background-color: #fcee21;
+  border-radius: 50px; */
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellow {
+  font-family: "gmarket";
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 49px;
+  padding-right: 49px;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: #fcee21;
+  border-radius: 50px;
+  color: #5b2386;
+}
+
+.pinger {
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.result-box {
+  color: white;
+  font-size: 24px;
+  line-height: 1.2;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+}
+
+.result-line-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result-line-2 {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight-large {
+  font-size: 72px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.number-large {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.result-box-1 {
+  color: white;
+  font-size: 24px;
+  line-height: 1;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem;
+  margin-top: -120px;
+}
+
+.gogo {
+  font-family: "gmarket";
+  background: #fcee21;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 49px;
+  padding-right: 49px;
+  border-radius: 50px;
+  color: #5b2386;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share {
+  font-family: "gmarket";
+  background: #ffffff;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  border-radius: 50px;
+  color: #5b2386;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 191px;
+}
+
+.grid {
+  display: grid; /* 핵심: 이 요소를 그리드 컨테이너로 설정 */
+
+  /* 1. 컬럼(열) 정의: 두 개의 컨텐츠를 자동으로 배치 */
+  grid-template-columns: auto auto; /* 또는 max-content max-content */
+
+  /* 2. 가로(수평) 중앙 정렬: 그리드 전체를 중앙으로 이동 */
+  justify-content: center;
+  gap: 20px;
+  margin-top: 70px;
+  margin-bottom: 500px;
+}
