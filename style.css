@@ -33,6 +33,11 @@
     font-size: 4.25vw;
   }
   .calculate-text {
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
     font-size: 4.06976vw;
     padding-left: 3vw;
     padding-right: 3vw;
@@ -488,7 +493,7 @@
   }
   .calculate-box {
     display: flex;
-    width: 35vw;
+    width: 38.4vw;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -496,13 +501,20 @@
     align-content: space-around;
   }
   .calculate-text {
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     font-size: 1.25vw;
+    gap: 0.7vw;
     padding-left: 0vw;
     padding-right: 0vw;
   }
   .tying-form {
-    width: 9.19vw;
-    height: 2.175vw;
+    width: 11.69vw;
+    height: 2.875vw;
     font-size: 1.06976vw;
   }
   .calculate-btn-box {
@@ -510,7 +522,7 @@
     margin-bottom: 3vw;
   }
   .calculate-btn {
-    padding: 0.98125vw 1.752086vw;
+    padding: 0.98125vw 2.32086vw;
     margin: 0px 12.158vw;
     border-radius: 56px;
     font-size: 1.25vw;
@@ -518,7 +530,7 @@
   .corsur-click  {
     position: absolute;
     top: 53vw;
-    right: 33vw;
+    right: 32vw;
     width: 4vw;
     height: auto;
   }
@@ -535,14 +547,16 @@
   }
   .share-btn-run {
     padding: 1vw 2vw;
+    font-size: 1.25vw;
   }
   .share-btn-share {
     padding: 1vw 2vw;
+    font-size: 1.25vw;
   }
-    .temporary-box {
+  .temporary-box {
     margin-top: 1vw;
-    gap: 1vw;
-    width: 36vw;
+    gap: 0.4vw;
+    width: 32.3vw;
   }
   .temporary-text {
     font-size: 3.75vw;
@@ -626,11 +640,6 @@
 .calculate-text {
   display: flex;
   font-family: 'Gmarket Sans TTF';
-  justify-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
 }
 .tying-form {
   border: none;
@@ -702,5 +711,4 @@
 }
 .temporary-text {
   font-weight: 800;
-  font: bold;
 }
