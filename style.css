@@ -213,15 +213,15 @@ p {
     font-size: 36px;
   }
 
-  .main_first {
+  .main_Definition {
     margin: 78px;
   }
 
-  .main_second {
+  .main_Input {
     margin-bottom: 90px;
   }
 
-  .main_last {
+  .main_Result {
     margin: 120px;
   }
 
@@ -236,9 +236,11 @@ p {
   .highlight {
     font-size: 24px;
   }
+
   .image_quotes {
     height: 30%;
   }
+
   .box {
     font-size: 24px;
     width: 228px;
@@ -292,7 +294,7 @@ p {
     background-color: white;
   }
 
-  .footer {
+  .main_btn {
     gap: 18px;
   }
 }
