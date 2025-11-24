@@ -5,7 +5,7 @@ body {
 }
 
 /*공백1 스타일*/
-div.gongback1 {
+div.gongbackone {
   text-align: center;
   width: 486px;
   height: 120px;
@@ -44,7 +44,7 @@ div.practice {
 }
 
 /*공백2 스타일*/
-div.gongback2 {
+div.gongbacktwo {
   text-align: center;
   width: 486px;
   height: 78px;
@@ -100,7 +100,7 @@ span {
 }
 
 /*공백3 스타일*/
-div.gongback3 {
+div.gongbackthree {
   text-align: center;
   width: 486px;
   height: 102px;
@@ -137,7 +137,7 @@ input::placeholder {
 }
 
 /*공백4 스타일*/
-div.gongback4 {
+div.gongbackfour {
   text-align: center;
   width: 486px;
   height: 115px;
@@ -148,6 +148,8 @@ div.gongback4 {
   text-align: center;
   height: 66px;
   width: 565px;
+  top: 1071px;
+  left: 678px;
   font-family: "GmarketSansBold";
   font-size: 24px;
   color: #5b2386;
@@ -161,7 +163,7 @@ span.btn_img {
 }
 
 /*공백5 스타일*/
-div.gongback5 {
+div.gongbackfive {
   text-align: center;
   width: 486px;
   height: 147px;
@@ -178,4 +180,11 @@ div.fivethousand {
   font-size: 24px;
   text-align: center;
   color: #ffffff;
+}
+
+/*공백6 스타일*/
+div.gongbacksix {
+  text-align: center;
+  width: 486px;
+  height: 127px;
 }
