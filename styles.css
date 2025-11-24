@@ -111,11 +111,14 @@ body {
   position: relative;
   text-align: center;
   color: white;
-  margin: 30px;
+  margin: 50px;
   font-family: "GmarketSansBold";
   font-style: initial;
   font-weight: bold;
   font-size: 30px;
+}
+.second {
+  margin-bottom: 100px;
 }
 
 .go {
@@ -128,6 +131,7 @@ body {
   font-size: 18px;
   border-radius: 56px;
   text-align: center;
+  color: purple;
   width: 356px;
   height: 66px;
 }
