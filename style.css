@@ -108,20 +108,30 @@ body {
 }
 
 .inputbox {
-  width: 124px;
+  width: 156px;
   height: 36px;
   text-align: center;
   padding: 1px;
-  border-radius: 10px;
-  border-style: 1px solid gray;
+  border-radius: 7px;
+  border-style: none;
 }
 .box-with-clixk {
   display: flex;
   position: relative;
 }
-.yellowbox {
+.yellowbox-1 {
   background-color: #fcee21;
-  border-radius: 10px;
+  border-radius: 13px;
+  width: 241px;
+  height: 68px;
+  line-height: 0.3;
+}
+.yellowbox-2 {
+  background-color: #fcee21;
+  border-radius: 56px;
+  width: 186px;
+  height: 46px;
+  text-align: center;
 }
 .click-image {
   display: inline-flex;
@@ -135,14 +145,17 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 20px;
 }
 .whitebox {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 56px;
+  width: 92px;
+  height: 46px;
+  text-align: center;
 }
 
 .text-purpleBold {
-  text-align: center;
   font-family: "Gmarket SansB";
   font-size: 14px;
   color: #5b2386;
