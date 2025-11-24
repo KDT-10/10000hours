@@ -160,6 +160,13 @@
     padding: 3vw 5vw;
     font-size: 4.06976vw;
   }
+    .temporary-box {
+    gap: 1vw;
+    width: 90vw;
+  }
+  .temporary-text {
+    font-size: x-large;
+  }
 }
 @media (min-width: 425px) and (max-width: 767.9px) {
   .img-10000hour {
@@ -234,6 +241,13 @@
   .share-btn-share {
     padding: 3vw 5vw;
     font-size: 4.06976vw;
+  }
+    .temporary-box {
+    gap: 1vw;
+    width: 90vw;
+  }
+  .temporary-text {
+    font-size: x-large;
   }
 }
 @media (min-width: 768px) and (max-width: 1023.9px) {
@@ -310,6 +324,13 @@
     padding: 3vw 5vw;
     font-size: 4.06976vw;
   }
+    .temporary-box {
+    gap: 1vw;
+    width: 90vw;
+  }
+  .temporary-text {
+    font-size: x-large;
+  }
 }
 @media (min-width: 1024px) and (max-width: 1439.9px) {
   .img-10000hour {
@@ -385,6 +406,7 @@
     padding: 3vw 5vw;
     font-size: 4.06976vw;
   }
+
 }
 @media (min-width: 1440px) and (max-width: 1919.9px) {
   .img-10000hour {
@@ -460,6 +482,13 @@
     padding: 3vw 5vw;
     font-size: 4.06976vw;
   }
+    .temporary-box {
+    gap: 1vw;
+    width: 90vw;
+  }
+  .temporary-text {
+    font-size: x-large;
+  }
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
   .img-10000hour {
@@ -534,6 +563,13 @@
   .share-btn-share {
     padding: 3vw 5vw;
     font-size: 4.06976vw;
+  }
+    .temporary-box {
+    gap: 1vw;
+    width: 90vw;
+  }
+  .temporary-text {
+    font-size: x-large;
   }
 }
 /* 반응형 설정 -끝- */
