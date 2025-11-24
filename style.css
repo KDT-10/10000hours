@@ -41,6 +41,7 @@ div {
   width: 700px;
   height: auto;
   left: 10%;
+  z-index: 2;
 }
 
 .clock {
@@ -48,6 +49,7 @@ div {
   height: auto;
   left: -20%;
   top: 70px;
+  z-index: 1;
 }
 
 .main {
@@ -165,7 +167,9 @@ footer {
   justify-content: center;
   align-items: center;
 }
-
+.m-only-br {
+  display: none; /* PC에서는 숨김 */
+}
 @media (max-width: 768px) {
   .title {
     position: relative;
@@ -173,6 +177,9 @@ footer {
     height: auto;
     left: 0%;
     top: 250px;
+  }
+  .m-only-br {
+    display: block; /* 모바일에서는 표시 */
   }
   .clock {
     position: relative;
