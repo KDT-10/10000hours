@@ -1,55 +1,57 @@
+/* tvN Enjoystories */
 @font-face {
-  font-family: "tvN Enjoystories";
-  src: url("./font/TTF/tvN\ 즐거운이야기\ Medium.ttf") format("truetype");
+  font-family: "tvN EnjoystoriesL";
+  src: url("./font/TTF/tvN\ 즐거운이야기\ Light.ttf") format("truetype");
+  font-weight: 300;
 }
-
+@font-face {
+  font-family: "tvN EnjoystoriesM";
+  src: url("./font/TTF/tvN\ 즐거운이야기\ Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "tvN EnjoystorieB";
+  src: url("./font/TTF/tvN\ 즐거운이야기\ Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+/* Gmarket Sans */
 @font-face {
   font-family: "Gmarket SansL";
   src: url("./font/GmarketSansTTF/GmarketSansTTFLight.ttf") format("truetype");
+  font-weight: 300;
 }
 @font-face {
   font-family: "Gmarket SansM";
   src: url("./font/GmarketSansTTF/GmarketSansTTFMedium.ttf") format("truetype");
+  font-weight: 500;
 }
 @font-face {
   font-family: "Gmarket SansB";
   src: url("./font/GmarketSansTTF/GmarketSansTTFBold.ttf") format("truetype");
   font-weight: 700;
 }
-
 .body {
   background-color: #044a0c;
 }
 
-.header {
-  position: relative;
-  display: inline-block;
-  height: 200px;
-  align-items: center;
-}
-.clock {
-  align-items: center;
-  position: absolute;
-  z-index: 0;
-  left: 118px;
-  top: 65px;
-}
-.clock img {
-  display: block;
-  width: 125px;
-  height: 126px;
-}
 .title {
-  align-items: center;
   position: relative;
-  z-index: 1;
-  top: 100px;
-  left: 47px;
+  width: min(16.75rem, 100%);
+  height: 7.875rem;
 }
-.title img {
-  display: block;
-  height: 53px;
-  width: 267px;
+.title > img {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.title-img {
+  width: min(16.75rem, 100%);
+  aspect-ratio: 5 / 1;
+}
+.clock-img {
+  height: min(7.875rem, 100%);
+  aspect-ratio: 1 / 1;
 }
 
 .subtitle {
@@ -62,7 +64,9 @@
   font-size: 22px;
   color: #f5df4d;
 }
-
+.block-1 {
+  top: 80px;
+}
 .quotes {
   display: flex;
   position: absolute;
