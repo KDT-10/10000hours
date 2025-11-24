@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1만 시간의 법칙</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+    @font-face {
+  font-family: 'font-quote';
+  src: url('./fonts/font-quote.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gmarket Sans';
+  src: url('./fonts/GmarketSansBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+</style>
+
   </head>
 
   <body class="bg-[#044A0C]">
@@ -16,7 +32,7 @@
         <img
           src="./images/clock.png"
           alt="시계 이미지"
-          class="absolute z-0 w-[140px] h-[140px] top-[65px] left-1/2 -translate-x-1/2 md:w-[200px] md:h-[200px] md:top-[100px]"
+          class="absolute z-0 w-[140px] h-[140px] top-[65px] left-1/2 -translate-x-1/2 md:w-[200px] md:h-[200px] md:top-[115px]"
         />
 
         <!-- 타이틀 -->
@@ -29,17 +45,18 @@
 
       <!-- 2. 명언 섹션 -->
       <p
-        class="w-[320px] md:w-[430px] absolute top-[240px] left-1/2 -translate-x-1/2 scale-x-110 font-font-quote font-bold text-[22px] leading-[1] text-[#F5DF4D] md:top-[350px] md:text-[30px] md:scale-x-125"
+        class="whitespace-nowrap absolute top-[240px] left-1/2 -translate-x-1/2 scale-x-110 font-[font-quote] font-bold text-[22px] leading-[1] text-[#F5DF4D] md:top-[350px] md:text-[30px] md:scale-x-125"
       >
         "연습은 어제의 당신보다 당신을 더 낫게 만든다."
       </p>
 
       <!-- 3. 메인 명언 섹션 -->
       <section
-        class="text-white text-center mt-20 md:mt-[120px] md:text-[25px] tracking-wide"
+        class="text-white text-center mt-20 md:mt-[120px] md:text-[18px] tracking-wide"
       >
-        <p class="font-bold">
-          1만 시간의 법칙<span class="font-light">은</span>
+      
+        <p class="font-light">
+          <span class="font-bold md:text-[24px]">1만 시간의 법칙</span>은
         </p>
         <p class="font-light">어떤 분야의 전문가가 되기 위해서는</p>
         <p class="font-light">최소한 1만 시간의 훈련이 필요하다는 법칙이다</p>
@@ -52,63 +69,44 @@
         class="absolute w-[370px] h-[22px] top-[405px] left-1/2 -translate-x-1/2 md:w-[520px] md:h-[30px] md:top-[580px]"
       />
 
-      <!-- 4. 포부글 / 입력형 박스 -->
-      <section class="mt-[100px] md:mt-[150px] tracking-wide">
-        <!-- MOBILE -->
-        <div class="space-y-4 md:hidden">
-          <p class="text-white text-center">
-            나는
-            <span
-              class="px-11 py-3 bg-white text-[#BABCBE] rounded-md text-[14px] tracking-wide"
-            >
-              예)프로그래밍
-            </span>
-            전문가가 될 것이다.
-          </p>
-          <p class="text-white text-center">그래서 앞으로 매일 하루에</p>
-          <p class="text-white text-center">
-            <span
-              class="px-12 py-3 bg-white text-[#BABCBE] rounded-md text-[14px] tracking-wide"
-            >
-              예)5시간
-            </span>
-            시간씩 훈련할 것이다.
-          </p>
-        </div>
+ <section class="mt-[100px] md:mt-[150px]">
 
-        <!-- TABLET -->
-        <div
-          class="hidden md:flex flex-col items-center space-y-6 text-[24px] font-normal"
-        >
-          <p class="text-white text-center">
-            나는
-            <span
-              class="px-11 py-3 bg-white text-[#BABCBE] rounded-md text-[18px]"
-            >
-              예)프로그래밍
-            </span>
-            전문가가 될 것이다.
-          </p>
+  <p class="text-white text-center  text-[16px] md:text-[24px] font-normal">
+    나는
+    <span
+      class="inline-flex justify-center items-center w-[156px] md:w-[228px] h-[37px] md:h-[57px] bg-white text-[#BABCBE] rounded-md 
+             text-[14px] md:text-[18px]"
+    >
+      예)프로그래밍
+    </span>
+    전문가가 될 것이다.
+  </p>
+<div class="items-center md:flex md:flex-row justify-center">
+  <p class="text-white text-center text-[16px] md:text-[24px] font-normal mt-6">
+    그래서 앞으로 매일 하루에 
+    
+  </p>
+  <p class="text-white text-center text-[16px] md:text-[24px] font-normal mt-6 mx-2">
+  <span
+      class="inline-flex justify-center items-center w-[156px] md:w-[228px] h-[37px] md:h-[57px] bg-white text-[#BABCBE] rounded-md 
+             text-[14px] md:text-[18px]"
+    >예)5시간</span>
+      씩 훈련할 것이다.</p>
+    </div>
+    
+  
 
-          <p class="text-white text-center">
-            그래서 앞으로 매일 하루에
-            <span
-              class="px-11 py-3 bg-white text-[#BABCBE] rounded-md text-[18px]"
-            >
-              예)5시간
-            </span>
-            시간씩 훈련할 것이다.
-          </p>
-        </div>
-      </section>
+</section>
+
+
 
       <!-- 5. 5110 프로그램 설명 -->
-      <section class="flex justify-center mt-[100px] md:mt-[150px]">
+      <section class="flex justify-center mt-[100px] md:mt-[150px] font-[GmarketSansBold]">
         <div
-          class="relative bg-[#FCEE21] rounded-full px-8 py-5 md:px-12 md:py-6 inline-flex items-center"
+          class="relative bg-[#FCEE21] rounded-[13px] px-8 py-5 md:rounded-full md:px-12 md:py-6 inline-flex items-center"
         >
           <p
-            class="text-center font-gmarket text-[#5B2386] font-extrabold text-[17px] md:text-[22px] leading-none"
+            class="text-center font-gmarket text-[#5B2386] font-[800] text-[17px] md:text-[22px] leading-none"
           >
             나는 며칠 동안 훈련을 해야
             <br class="block md:hidden"/>
@@ -124,25 +122,25 @@
       </section>
 
       <!-- 6. 계산 결과 영역 -->
-      <section class="flex justify-center mt-[100px] md:mt-[100px]">
+      <section class=" flex justify-center mt-[100px] md:mt-[100px]">
         <div
           class="text-center w-[90%] md:w-[700px] max-w-[500px] md:max-w-none"
         >
           <p
-            class="text-[18px] md:text-[24px] font-light text-white leading-snug"
+            class="flex items-center justify-center text-[18px] md:text-[24px] font-light text-white leading-snug"
           >
             당신은
-            <span class="text-[32px] md:text-[70px] font-extrabold text-white">
+            <span class="text-[32px] mx-[10px] md:text-[70px] font-extrabold text-white">
               프로그래밍
             </span>
             전문가가 되기 위해서
           </p>
 
           <p
-            class="text-[18px] md:text-[24px] font-light text-white leading-snug mt-2"
+            class="flex items-center justify-center text-[18px] md:text-[24px] font-light text-white leading-snug mt-2"
           >
             대략
-            <span class="font-extrabold text-[30px] md:text-[70px] text-white">
+            <span class="mx-[10px] font-extrabold text-[30px] md:text-[70px] text-white">
               5110일
             </span>
             이상 훈련하셔야 합니다! :)
@@ -151,7 +149,7 @@
       </section>
 
       <!-- 7. 버튼 두 개 -->
-      <section class="flex justify-center gap-6 mt-[100px] md:mt-[150px] mb-10">
+      <section class="whitespace-nowrap flex justify-center gap-6 mt-[100px] md:mt-[150px] mb-10 font-[GmarketSansBold]">
         <!-- 1번 버튼 -->
         <div
           class="relative bg-[#FCEE21] rounded-full px-8 py-5 md:px-12 md:py-6 inline-flex items-center"
