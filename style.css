@@ -162,11 +162,43 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+
+  /* ============================== */
+  /* 테스트 추가 */
+  /* ============================== */
+  position: relative;
+  overflow: hidden;
+  /* ============================== */
+  /* ============================== */
+}
+
+.center-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.6),
+    transparent
+  );
+  transition: all 0.4s ease;
+}
+
+.center-btn:hover::after {
+  left: 120%;
 }
 
 .click-icon {
   width: 43px;
   height: 48px;
+  transition: transform 0.3s ease;
+}
+.click-icon:hover {
+  transform: translateX(5px);
 }
 .end-section {
   text-align: center;
@@ -214,6 +246,7 @@ body {
   border-radius: 40px;
   font-weight: 700;
   font-size: 14px;
+  transition: box-shadow 0.3s ease;
 }
 
 .go-btn {
@@ -244,7 +277,10 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.go-btn:hover,
+.share-btn:hover {
+  box-shadow: 0 0 15px rgba(255, 233, 63, 0.7);
+}
 @media (min-width: 1024px) {
   .mobile-center p {
     display: block;
