@@ -101,6 +101,20 @@ span {
   font-size: 72px;
 }
 
+.input-field {
+  display: inline-block;
+  background: white;
+  width: 140px;
+  height: 57px;
+  border-radius: 7px;
+  padding: 2px 10px;
+  margin: 0 4px;
+  font-family: inherit;
+  font-size: inherit;
+  vertical-align: center;
+  color: #babcbe;
+}
+
 .btn-training_hour {
   background-color: #fcee21;
   color: #5b2386;
@@ -130,7 +144,7 @@ span {
   width: 356px;
   height: 66px;
   margin-left: 480px;
-  margin-top: 127px;
+  margin-top: 90px;
 }
 
 .btn-sharing {
@@ -143,5 +157,5 @@ span {
   width: 191px;
   height: 66px;
   margin-left: 18px;
-  margin-top: 127px;
+  margin-top: 90px;
 }
