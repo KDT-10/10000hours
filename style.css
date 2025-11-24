@@ -18,7 +18,7 @@
     margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 7vw;
+    margin-top: 6vw;
     margin-bottom: 6vw;
   }
   .font-style-sub-title {
@@ -34,8 +34,6 @@
   }
   .calculate-text {
     font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
     padding-left: 3vw;
     padding-right: 3vw;
   }
@@ -45,11 +43,6 @@
     font-size: 4.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -67,6 +60,10 @@
     height: auto;
   }
   .share-btn-box {
+    display: flex;
+    justify-self: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     margin-top: 5vw;
     margin-bottom: 5vw;
   }
@@ -116,8 +113,6 @@
   }
   .calculate-text {
     font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
     padding-left: 3vw;
     padding-right: 3vw;
   }
@@ -127,11 +122,6 @@
     font-size: 4.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -198,8 +188,6 @@
   }
   .calculate-text {
     font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
     padding-left: 3vw;
     padding-right: 3vw;
   }
@@ -209,11 +197,6 @@
     font-size: 4.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -280,8 +263,6 @@
   }
   .calculate-text {
     font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
     padding-left: 3vw;
     padding-right: 3vw;
   }
@@ -291,11 +272,6 @@
     font-size: 4.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -362,8 +338,6 @@
   }
   .calculate-text {
     font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
     padding-left: 3vw;
     padding-right: 3vw;
   }
@@ -373,11 +347,6 @@
     font-size: 4.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -438,8 +407,6 @@
   }
   .calculate-text {
     font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
     padding-left: 3vw;
     padding-right: 3vw;
   }
@@ -449,11 +416,6 @@
     font-size: 4.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
     margin-top: 8vw;
     margin-bottom: 8vw;
   }
@@ -491,85 +453,100 @@
   }
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
+  body {
+    font-size: 1.25vw;
+  }
   .img-10000hour {
-    width: 73vw;
+    width: 29vw;
     height: auto;
   }
   .img-clock {
-    width: 32vw;
+    width: 13.5vw;
     height: auto;
   }
   .title-images {
-    margin-top: 16vw;
-    margin-bottom: 7vw;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
   }
   .main-box {
-    margin-top: 7vw;
-    margin-bottom: 6vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
   }
   .font-style-sub-title {
-  font-size: 6.68vw;
+  font-size: 2vw;
   }
   .qoutes {
-    width: 85vw;
-    height: 4vw;
-    top: 90vw;
+    width: 24.5vw;
+    height: 1.7vw;
+    top: 29.5vw;
   }
   .text-center {
-    font-size: 4.25vw;
+    font-size: 1.25vw;
+  }
+  .overview-box {
+    line-height: 2vw;
+  }
+  .calculate-box {
+    display: flex;
+    width: 35vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: space-around;
   }
   .calculate-text {
-    font-size: 4.06976vw;
-    grid-template-columns: 1fr 1fr 2fr 0fr;
-    grid-template-rows: 3fr;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    font-size: 1.25vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
   }
   .tying-form {
-    width: 44.19vw;
-    height: 10.175vw;
-    font-size: 4.06976vw;
+    width: 9.19vw;
+    height: 2.175vw;
+    font-size: 1.06976vw;
   }
   .calculate-btn-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: space-around;
-    align-items: flex-end;
-    margin-top: 8vw;
-    margin-bottom: 8vw;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
   }
   .calculate-btn {
-    padding: 3.98125vw 11.752086vw;
-    font-size: 4.06976vw;
+    padding: 0.98125vw 1.752086vw;
     margin: 0px 12.158vw;
-    border-radius: 13px;
+    border-radius: 56px;
+    font-size: 1.25vw;
   }
   .corsur-click  {
     position: absolute;
-    top: 183vw;
-    right: 2vw;
-    width: 12.5vw;
+    top: 53vw;
+    right: 33vw;
+    width: 4vw;
     height: auto;
   }
-    .share-btn-box {
+  .share-btn-box {
+    display: flex;
+    justify-self: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
     margin-top: 5vw;
     margin-bottom: 5vw;
   }
   .share-btn-run {
-    padding: 3vw 5vw;
-    font-size: 4.06976vw;
+    padding: 1vw 2vw;
   }
   .share-btn-share {
-    padding: 3vw 5vw;
-    font-size: 4.06976vw;
+    padding: 1vw 2vw;
   }
     .temporary-box {
+    margin-top: 1vw;
     gap: 1vw;
-    width: 90vw;
+    width: 36vw;
   }
   .temporary-text {
-    font-size: x-large;
+    font-size: 3.75vw;
+    line-height: 0px;
   }
 }
 /* 반응형 설정 -끝- */
@@ -599,7 +576,6 @@
   align-content: center;
   flex-wrap: wrap;
   text-align: center;
-  line-height: 9vw;
 }
 /* 박스 -끝- */
 
@@ -640,8 +616,6 @@
 }
 .text-center {
   font-family: 'Gmarket Sans TTF';
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 /* 폰트 -끝- */
 
@@ -669,6 +643,13 @@
 /* 계산칸 -끝- */
 
 /* 계산 버튼 스타일 */
+.calculate-btn-box {   
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-items: flex-end;
+}
 .calculate-btn {
   background-color: #fcee21;
   font-family: 'Gmarket Sans TTF';
@@ -687,12 +668,6 @@
 .share-btn-box {
   display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  text-align: center;
-  text-decoration: none;
 }
 .share-btn-run {
   background-color: #fcee21;
