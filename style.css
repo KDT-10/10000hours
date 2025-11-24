@@ -160,6 +160,8 @@ p {
   border: none;
   word-break: break-all;
   overflow-wrap: break-word;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
 }
 
 .btn {
@@ -170,6 +172,8 @@ p {
   color: #5b2386;
   cursor: pointer;
   border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease;
 }
 
 .btn_yellow {
@@ -180,6 +184,11 @@ p {
 .btn_white {
   width: 92px;
   background-color: white;
+}
+
+.btn:active,
+.click_box:active {
+  transform: scale(0.97);
 }
 
 @media (min-width: 1024px) {
