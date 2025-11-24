@@ -3,7 +3,7 @@ body {
   background-color: #044a0c;
 }
 
-/*공백 스타일*/
+/*공백1 스타일*/
 div.gongback1 {
   text-align: center;
   width: 486px;
@@ -96,4 +96,11 @@ span {
   font-weight: normal;
   text-align: center;
   color: #ffffff;
+}
+
+/*공백3 스타일*/
+div.gongback3 {
+  text-align: center;
+  width: 486px;
+  height: 102px;
 }
