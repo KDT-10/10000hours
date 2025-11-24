@@ -3,6 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 .main-title {
   display: grid;
   place-items: center;
@@ -85,11 +86,6 @@ body {
 .time-input {
   width: 100px;
 }
-@media (max-width: 767px) {
-  input[type="text"] {
-    width: 160px;
-  }
-}
 
 .action-buttons {
   position: relative;
@@ -110,14 +106,6 @@ body {
   left: 20%;
   position: relative;
   margin-left: 50px;
-}
-@media (max-width: 767px) {
-  .icon .btn {
-    width: 220px;
-    padding: 15px 2rem;
-    line-height: 18px;
-    border-radius: 14px;
-  }
 }
 
 .Result {
@@ -160,21 +148,6 @@ body {
   text-align: center;
   width: 191px;
   height: 66px;
-}
-@media (max-width: 767px) {
-  .go .sub {
-    padding: 10px 20px;
-    border-radius: 30px;
-  }
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-  .container: {
-    max-width: 800px;
-    padding: 50px;
-  }
 }
 
 @font-face {
