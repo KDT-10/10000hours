@@ -46,11 +46,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .title {
   position: relative;
@@ -118,11 +113,32 @@ body {
   text-align: center;
   padding: 1px;
   border-radius: 10px;
+  border-style: 1px solid gray;
 }
-
-.click-img {
+.box-with-clixk {
+  display: flex;
+  position: relative;
+}
+.yellowbox {
+  background-color: #fcee21;
+  border-radius: 10px;
+}
+.click-image {
+  display: inline-flex;
+  position: absolute;
+}
+.click-image img {
   width: 42px;
   height: 48px;
+}
+.bot-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.whitebox {
+  background-color: white;
+  border-radius: 10px;
 }
 
 .text-purpleBold {
@@ -131,10 +147,6 @@ body {
   font-size: 14px;
   color: #5b2386;
   letter-spacing: 0%;
-  background-color: #fcee21;
-  border: 1px solid #8b8a8a;
-  border-radius: 56px;
-  padding: 13px;
 }
 
 @media (min-width: 768px) {
@@ -155,3 +167,4 @@ body {
   .subtitle {
     font-size: 36px;
   }
+}
