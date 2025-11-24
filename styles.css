@@ -53,12 +53,14 @@ body {
   position: relative;
   z-index: 1;
   text-align: center;
+  color: white;
 }
 
 .input {
   font-size: 16px;
   text-align: center;
   margin: 30px;
+  color: white;
 }
 
 .input-field {
@@ -77,6 +79,35 @@ body {
 
 .time-input {
   width: 100px; /* 시간 입력 - 모바일 */
+}
+
+.action-buttons {
+  position: relative;
+  background-color: #ffeb3b;
+  border-radius: 38px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  gap: 15px;
+  top: 50%;
+  left: 50%;
+}
+
+.icon {
+  display: inline;
+  top: 50%;
+  left: 50%;
+  position: relative;
+}
+
+.Result {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 30px;
+  font-family: "GmarketSansBold";
+  font-style: initial;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 /* 태블릿/데스크톱 (768px 이상) */
