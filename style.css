@@ -39,11 +39,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -70,6 +65,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+  .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 @media (min-width: 375px) and (max-width: 424.9px) {
@@ -107,11 +114,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -138,6 +140,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+    .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 @media (min-width: 425px) and (max-width: 767.9px) {
@@ -175,11 +189,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -206,6 +215,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+    .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 @media (min-width: 768px) and (max-width: 1023.9px) {
@@ -243,11 +264,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -274,6 +290,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+    .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 @media (min-width: 1024px) and (max-width: 1439.9px) {
@@ -311,11 +339,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -342,6 +365,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+    .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 @media (min-width: 1440px) and (max-width: 1919.9px) {
@@ -379,11 +414,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -410,6 +440,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+    .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
@@ -447,11 +489,6 @@
     padding-left: 3vw;
     padding-right: 3vw;
   }
-  .item:nth-child(3) {
-    grid-column: 2 / span 3;
-    grid-row: 2 / 3;
-
-  }
   .tying-form {
     width: 44.19vw;
     height: 10.175vw;
@@ -478,6 +515,18 @@
     right: 2vw;
     width: 12.5vw;
     height: auto;
+  }
+    .share-btn-box {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  .share-btn-run {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
+  }
+  .share-btn-share {
+    padding: 3vw 5vw;
+    font-size: 4.06976vw;
   }
 }
 /* 반응형 설정 -끝- */
@@ -594,6 +643,7 @@
 /* 공유하기 버튼 스타일 */
 .share-btn-box {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
@@ -608,6 +658,7 @@
   border: none;
   color: #5b2386;
   cursor: pointer;
+  border-radius: 56px;
 }
 .share-btn-share {
   background-color: #ffffff;
@@ -616,5 +667,6 @@
   border: none;
   color: #5b2386;
   cursor: pointer;
+  border-radius: 56px;
 }
 /* 공유하기 버튼 스타일 - 끝 - */
