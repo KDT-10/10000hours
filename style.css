@@ -66,22 +66,12 @@ body {
   align-items: center;
 }
 
-/* 따옴표 작업 */
-.quote-mark {
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 100%;
-}
-.quote-mark.left {
-  margin-right: 12px;
-  color: #f3ee21;
-  opacity: 0.3;
-}
-
-.quote-mark.right {
-  margin-left: 12px;
-  color: #f3ee21;
-  opacity: 0.3;
+.quote {
+  position: absolute;
+  left: 1px;
+  width: 100%;
+  height: auto;
+  z-index: 3;
 }
 
 /* 따옴표 내부에 적을 거 여기에다 작업 */
@@ -91,6 +81,7 @@ body {
   font-size: 14px;
   line-height: 100%;
   color: white;
+  white-space: nowrap;
 }
 
 .description-text .line {
@@ -151,17 +142,14 @@ body {
   height: 68px;
   background-color: #ffe93f;
   color: #5b2386;
-  border-radius: 38px;
+  border-radius: 13px;
   font-size: 14px;
   font-weight: 700;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-
-  /* ============================== */
-  /* 테스트 추가 */
-  /* ============================== */
+  padding: 23px 49px 21px 49px;
   position: relative;
   overflow: hidden;
   /* ============================== */
@@ -308,6 +296,7 @@ body {
     transform: translate(-50%, -50%);
     z-index: 2;
   }
+
   .quote-text {
     font-size: 24px;
   }
@@ -335,11 +324,7 @@ body {
     height: 66px;
     font-size: 20px;
   }
-  .quote-mark {
-    font-size: 46px;
-    font-weight: 700;
-    line-height: 100%;
-  }
+
   .share-btn {
     width: 191px;
     height: 66px;
@@ -350,8 +335,8 @@ body {
   }
 
   .input-box {
-    width: 228;
-    height: 57;
+    width: 228px;
+    height: 57px;
     font-size: 24px;
   }
 }
