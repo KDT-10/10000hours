@@ -254,7 +254,7 @@ body {
   height: 40px;
   background-color: #ffe93f;
   color: #5b2386;
-  border-radius: 40px;
+  border-radius: 56px;
   font-weight: 700;
   font-size: 14px;
   display: flex;
@@ -265,11 +265,9 @@ body {
 .share-btn {
   width: 92px;
   height: 40px;
-
   background-color: #ffffff;
   color: #5b2386;
-
-  border-radius: 40px;
+  border-radius: 56px;
   font-weight: 700;
   font-size: 14px;
 
@@ -330,7 +328,11 @@ body {
     height: 66px;
     font-size: 20px;
   }
-
+  .quote-mark {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 100%;
+  }
   .share-btn {
     width: 191px;
     height: 66px;
