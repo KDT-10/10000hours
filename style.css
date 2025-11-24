@@ -46,7 +46,7 @@ p {
   text-align: center;
 }
 
-.main_Definition {
+.main_definition {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -54,17 +54,17 @@ p {
   margin: 10vw 0;
 }
 
-.main_Input {
+.main_input {
   margin-bottom: 7vw;
   align-items: center;
 }
 
-.main_Calculate {
+.main_calculate {
   display: flex;
   justify-content: center;
 }
 
-.main_Result {
+.main_result {
   margin: 7vw;
 }
 
