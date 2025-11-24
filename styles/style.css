@@ -1,4 +1,4 @@
-main {
+.main-container {
   max-width: 100%;
   margin: 0 auto;
   padding: 10px;
@@ -17,7 +17,7 @@ main {
   cursor: pointer;
   background-color: cadetblue;
 }
-h1 img {
+.header-logo img {
   position: absolute;
   transition: all 0.8s;
 }
@@ -32,46 +32,51 @@ h1 img {
 }
 
 /* - content: 여러개 같이 */
-.FamousPhrase-title,
-.FamousPhrase,
-.form-box,
+.famous-phrase-title,
+.famous-phrase,
+.input-box,
 .click-box,
-.Result,
+.result,
 .go-box {
   margin-bottom: 20%;
   background-color: #052509;
 }
 /* : font */
-.FamousPhrase,
-.form-box,
-input[type="text"],
-.Result {
-  font-size: px;
+.font-base {
+  font-family: var(--font-base);
 }
-.FamousPhrase,
-.form-box,
-.Result {
+.font-white {
+  color: var(--text-primary);
+}
+.font-bold {
+  font-family: var(--font-bold);
+}
+.famous-phrase,
+.input-box,
+.result {
   font-weight: 300;
 }
-.form-box,
-.Result {
+.input-box,
+.result {
   letter-spacing: 1px;
 }
 
 /* 2. 명언 */
-.FamousPhrase-title {
+.famous-phrase-title {
+  font-family: var(--font-quote);
   font-size: 22px;
+  color: var(--text-quote);
   transition: all 1s;
   font-weight: bold;
 }
-.FamousPhrase {
+.famous-phrase {
   width: 100%;
   text-align: center;
   line-height: 2rem;
   background: url("../images/quotes.png") no-repeat center;
   transition: all 1s;
 }
-.FamousPhrase b {
+.famous-phrase b {
   font-family: var(--font-medium);
   font-size: 15px;
 }
@@ -94,7 +99,7 @@ input[type="text"]:focus {
   }
 }
 
-/* 4. click: 확인 버튼 */
+/* 4. Click: 확인 버튼 */
 .click-box {
   display: flex;
   justify-content: center;
@@ -122,10 +127,10 @@ input[type="text"]:focus {
 }
 
 /* 5. Result: 결과 */
-.Result {
+.result {
   line-height: 3rem;
 }
-.Result strong {
+.result strong {
   display: inline-block;
   vertical-align: middle;
   padding: 0 5px;
@@ -137,6 +142,9 @@ input[type="text"]:focus {
   display: flex;
   justify-content: center;
   gap: 10px;
+}
+.go-box .btn-sharing {
+  background-color: var(--text-primary);
 }
 @media (max-width: 767px) {
   .go-box .btn {
@@ -150,7 +158,7 @@ input[type="text"]:focus {
   html {
     font-size: 16px;
   }
-  main {
+  .main-container {
     max-width: 800px;
     padding: 50px;
   }
@@ -174,25 +182,25 @@ input[type="text"]:focus {
   }
 
   /* : font */
-  .FamousPhrase,
-  .FamousPhrase b,
-  .form-box,
+  .famous-phrase,
+  .famous-phrase b,
+  .input-box,
   input[type="text"],
   .click-box,
-  .Result,
+  .result,
   .btn {
     font-size: 24px;
     font-weight: 300;
   }
 
   /* 2. 명언 */
-  .FamousPhrase-title {
+  .famous-phrase-title {
     font-size: 34px;
   }
-  .FamousPhrase {
+  .famous-phrase {
     line-height: 3rem;
   }
-  .FamousPhrase b {
+  .famous-phrase b {
     font-size: 25px;
   }
 
@@ -210,10 +218,10 @@ input[type="text"]:focus {
   }
 
   /* 5. Result: 결과 */
-  .Result {
+  .result {
     line-height: 5rem;
   }
-  .Result strong {
+  .result strong {
     font-size: 72px;
   }
 

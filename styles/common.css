@@ -84,30 +84,6 @@ body {
   font-display: swap;
 }
 
-.FamousPhrase-title {
-  font-family: var(--font-quote);
-  color: var(--text-quote);
-}
-.FamousPhrase,
-.form-box,
-input[type="text"],
-.Result {
-  font-family: var(--font-base);
-}
-.FamousPhrase b,
-.btn,
-.Result strong {
-  font-family: var(--font-bold);
-}
-.FamousPhrase,
-.form-box,
-.Result {
-  color: var(--text-primary);
-}
-
-div.go-box button.btn-sharing {
-  background-color: var(--text-primary);
-}
 .btn {
   color: var(--text-accent);
   font-weight: 700;
