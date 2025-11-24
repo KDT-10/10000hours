@@ -12,6 +12,22 @@ body {
   text-align: center;
   transition: all 1s;
 }
+.main-container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  transition: all 1s;
+  background-color: #05300a;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  .main-container {
+    max-width: 800px;
+    padding: 50px;
+  }
+}
 
 :root {
   /* 배경색 */

@@ -1,11 +1,3 @@
-.main-container {
-  max-width: 100%;
-  margin: 0 auto;
-  padding: 10px;
-  transition: all 1s;
-  background-color: #05300a;
-}
-
 /* 1. header: logo */
 .header-logo {
   display: flex;
@@ -155,14 +147,6 @@ input[type="text"]:focus {
 
 /* 반응형: 태블릿/데스크톱 버전 */
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-  .main-container {
-    max-width: 800px;
-    padding: 50px;
-  }
-
   /* 1. header: logo */
   .header-logo {
     height: 300px;
