@@ -185,6 +185,23 @@ span {
   display: block;
 }
 
+.button-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.button-row .btn-training,
+.button-row .btn-sharing {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
 /* Breakpoints for tablet / mobile */
 @media (max-width: 767px) {
   .clock {
@@ -217,5 +234,9 @@ span {
     height: 68px;
     width: 241px;
     font-size: 14px;
+  }
+  .button-row {
+    flex-direction: column;
+    gap: 12px;
   }
 }
