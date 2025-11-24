@@ -18,14 +18,16 @@
     margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 9vw;
+    margin-top: 7vw;
     margin-bottom: 6vw;
   }
   .font-style-sub-title {
   font-size: 6.68vw;
   }
   .qoutes {
-    width: 78vw;
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
   }
   .text-center {
     font-size: 4.25vw;
@@ -72,169 +74,410 @@
 }
 @media (min-width: 375px) and (max-width: 424.9px) {
   .img-10000hour {
-    width: 25vw;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
     width: 32vw;
     height: auto;
   }
-    .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+  .title-images {
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+  }
+  .font-style-sub-title {
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
+  }
+  .text-center {
+    font-size: 4.25vw;
+  }
+  .calculate-text {
+    font-size: 4.06976vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
   }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
+  }
+  .calculate-btn-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
   .calculate-btn {
-  padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
-  margin: 0.3125vw 0.15625vw;
-  border-radius: 56px;
+    padding: 3.98125vw 11.752086vw;
+    font-size: 4.06976vw;
+    margin: 0px 12.158vw;
+    border-radius: 13px;
+  }
+  .corsur-click  {
+    position: absolute;
+    top: 183vw;
+    right: 2vw;
+    width: 12.5vw;
+    height: auto;
   }
 }
 @media (min-width: 425px) and (max-width: 767.9px) {
   .img-10000hour {
-    width: 25vw;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
     width: 32vw;
     height: auto;
   }
-    .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+  .title-images {
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+  }
+  .font-style-sub-title {
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
+  }
+  .text-center {
+    font-size: 4.25vw;
+  }
+  .calculate-text {
+    font-size: 4.06976vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
   }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
+  }
+  .calculate-btn-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
   .calculate-btn {
-  padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
-  margin: 0.3125vw 0.15625vw;
-  border-radius: 56px;
+    padding: 3.98125vw 11.752086vw;
+    font-size: 4.06976vw;
+    margin: 0px 12.158vw;
+    border-radius: 13px;
+  }
+  .corsur-click  {
+    position: absolute;
+    top: 183vw;
+    right: 2vw;
+    width: 12.5vw;
+    height: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 1023.9px) {
   .img-10000hour {
-    width: 25vw;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
-    width: 30vw;
+    width: 32vw;
     height: auto;
   }
-    .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+  .title-images {
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+  }
+  .font-style-sub-title {
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
+  }
+  .text-center {
+    font-size: 4.25vw;
+  }
+  .calculate-text {
+    font-size: 4.06976vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
   }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
+  }
+  .calculate-btn-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
   .calculate-btn {
-  padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
-  margin: 0.3125vw 0.15625vw;
-  border-radius: 56px;
+    padding: 3.98125vw 11.752086vw;
+    font-size: 4.06976vw;
+    margin: 0px 12.158vw;
+    border-radius: 13px;
+  }
+  .corsur-click  {
+    position: absolute;
+    top: 183vw;
+    right: 2vw;
+    width: 12.5vw;
+    height: auto;
   }
 }
 @media (min-width: 1024px) and (max-width: 1439.9px) {
   .img-10000hour {
-    width: 55vw;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
-    width: 25vw;
+    width: 32vw;
     height: auto;
   }
-    .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+  .title-images {
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;  }
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+  }
+  .font-style-sub-title {
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
+  }
+  .text-center {
+    font-size: 4.25vw;
+  }
+  .calculate-text {
+    font-size: 4.06976vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
+  }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
+  }
+  .calculate-btn-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
   .calculate-btn {
-  padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
-  margin: 0.3125vw 0.15625vw;
-  border-radius: 56px;
+    padding: 3.98125vw 11.752086vw;
+    font-size: 4.06976vw;
+    margin: 0px 12.158vw;
+    border-radius: 13px;
+  }
+  .corsur-click  {
+    position: absolute;
+    top: 183vw;
+    right: 2vw;
+    width: 12.5vw;
+    height: auto;
   }
 }
 @media (min-width: 1440px) and (max-width: 1919.9px) {
   .img-10000hour {
-    width: 40vw;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
-    width: 20vw;
+    width: 32vw;
     height: auto;
   }
-    .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+  .title-images {
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+  }
+  .font-style-sub-title {
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
+  }
+  .text-center {
+    font-size: 4.25vw;
+  }
+  .calculate-text {
+    font-size: 4.06976vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
   }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
+  }
+  .calculate-btn-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
   .calculate-btn {
-  padding: 0.78125vw 2.552086vw;
-  font-size: 1.25vw;
-  margin: 0.3125vw 0.15625vw;
-  border-radius: 56px;
+    padding: 3.98125vw 11.752086vw;
+    font-size: 4.06976vw;
+    margin: 0px 12.158vw;
+    border-radius: 13px;
+  }
+  .corsur-click  {
+    position: absolute;
+    top: 183vw;
+    right: 2vw;
+    width: 12.5vw;
+    height: auto;
   }
 }
 @media (min-width: 1920px) and (max-width: 2559.9px) {
   .img-10000hour {
-    width: 29vw;
+    width: 73vw;
     height: auto;
   }
   .img-clock {
-    width: 13.5vw;
+    width: 32vw;
     height: auto;
   }
   .title-images {
-    margin-top: 8vw;
-    margin-bottom: 3vw;
+    margin-top: 16vw;
+    margin-bottom: 7vw;
   }
   .main-box {
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+  }
+  .font-style-sub-title {
+  font-size: 6.68vw;
+  }
+  .qoutes {
+    width: 85vw;
+    height: 4vw;
+    top: 90vw;
+  }
+  .text-center {
+    font-size: 4.25vw;
+  }
+  .calculate-text {
+    font-size: 4.06976vw;
+    grid-template-columns: 1fr 1fr 2fr 0fr;
+    grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+  .item:nth-child(3) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 3;
+
   }
   .tying-form {
-    width: 11.875vw;
-    height: 2.969vw;
-    font-size: 1.25vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
+  }
+  .calculate-btn-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-end;
+    margin-top: 8vw;
+    margin-bottom: 8vw;
   }
   .calculate-btn {
-  padding: 0.78125vw 2.552086vw;
-  margin: 0.3125vw 0.15625vw;
-  border-radius: 56px;
+    padding: 3.98125vw 11.752086vw;
+    font-size: 4.06976vw;
+    margin: 0px 12.158vw;
+    border-radius: 13px;
+  }
+  .corsur-click  {
+    position: absolute;
+    top: 183vw;
+    right: 2vw;
+    width: 12.5vw;
+    height: auto;
   }
 }
 /* 반응형 설정 -끝- */
@@ -264,6 +507,7 @@
   align-content: center;
   flex-wrap: wrap;
   text-align: center;
+  line-height: 9vw;
 }
 /* 박스 -끝- */
 
@@ -332,7 +576,7 @@
 }
 /* 계산칸 -끝- */
 
-/* 버튼 스타일 */
+/* 계산 버튼 스타일 */
 .calculate-btn {
   background-color: #fcee21;
   font-family: 'Gmarket Sans TTF';
@@ -345,5 +589,32 @@
   cursor: pointer;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
 }
+/* 계산 버튼 스타일 - 끝 - */
 
-/* 버튼 스타일 - 끝 - */
+/* 공유하기 버튼 스타일 */
+.share-btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  text-decoration: none;
+}
+.share-btn-run {
+  background-color: #fcee21;
+  font-family: 'Gmarket Sans TTF';
+  font-weight: 800;
+  border: none;
+  color: #5b2386;
+  cursor: pointer;
+}
+.share-btn-share {
+  background-color: #ffffff;
+  font-family: 'Gmarket Sans TTF';
+  font-weight: 800;
+  border: none;
+  color: #5b2386;
+  cursor: pointer;
+}
+/* 공유하기 버튼 스타일 - 끝 - */
