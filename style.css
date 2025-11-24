@@ -1,7 +1,16 @@
+/*배경 색상*/
 body {
   background-color: #044a0c;
 }
 
+/*공백 스타일*/
+div.gongback1 {
+  text-align: center;
+  width: 486px;
+  height: 120px;
+}
+
+/*상단 이미지 스타일*/
 div.image-container {
   text-align: center;
   position: relative;
@@ -33,7 +42,32 @@ div.practice {
   color: #f5df4d;
 }
 
+/*공백2 스타일*/
+div.gongback2 {
+  text-align: center;
+  width: 486px;
+  height: 78px;
+}
+
 /*본문 스타일*/
+div.main {
+  text-align: center;
+  position: relative;
+}
+
+div.quotes {
+  z-index: 1;
+  top: 641px;
+  left: 1161px;
+}
+
+div.Gmarket {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @font-face {
   font-family: "GmarketSansBold";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
