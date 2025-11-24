@@ -141,8 +141,11 @@ p {
 }
 
 .box:focus {
-  border-color: white;
+  border-color: #f5df4d;
+  border-width: 2px;
+  box-shadow: 0 0 5px 2px rgba(245, 223, 77, 0.6);
 }
+
 .box,
 .btn,
 .click_box {
