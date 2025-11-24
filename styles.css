@@ -28,29 +28,67 @@ body {
   /* title.png - 앞에 배치 */
   z-index: 2;
 }
-.container-text {
+.text {
+  margin: 30px;
   color: #f5df4d;
   font-family: "OTEnjoystoriesBA";
   font-style: italic;
   font-weight: bold;
-}
-.container .quotes {
-  width: 486px;
-  height: 40px;
-  top: 510px;
-  left: 717px;
-}
-.container .p {
-  display: grid;
-  place-items: center;
-  font-weight: bold;
+  font-size: 30px;
   text-align: center;
-  width: 373px;
-  height: 85px;
-  top: 628px;
-  left: 774px;
+}
+.definition-box {
+  position: relative;
 }
 
+.definition-box .quote-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.definition-box .definition-text {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.input {
+  font-size: 16px;
+  text-align: center;
+  margin: 30px;
+}
+
+.input-field {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  background-color: white;
+  color: #333;
+}
+
+.subject-input {
+  width: 120px; /* 전문 분야 입력 - 모바일 */
+}
+
+.time-input {
+  width: 100px; /* 시간 입력 - 모바일 */
+}
+
+/* 태블릿/데스크톱 (768px 이상) */
+@media (min-width: 768px) {
+  .subject-input {
+    width: 180px;
+  }
+
+  .time-input {
+    width: 150px;
+  }
+}
 @font-face {
   font-family: "OTEnjoystoriesBA";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
