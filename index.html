@@ -4,10 +4,64 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>김연화_1만시간의법칙</title>
-    <link rel="stylesheet" href=".css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <style></style>
   </head>
   <body>
-    <h1></h1>
+    <main>
+      <!-- 1. header: logo -->
+      <h1 class="header-logo">
+        <img class="logo" src="./images/title.png" alt="로고/1만 시간의 법칙" />
+        <img class="logobg" src="./images/clock.png" alt="로고배경/시계" />
+      </h1>
+      <article>
+        <!-- 2. 명언 -->
+        <h2 class="FamousPhrase-title">
+          "연습은 어제의 당신보다 당신을 더 낫게 만든다."
+        </h2>
+        <p class="FamousPhrase">
+          <b>1만 시간의 법칙</b>은<br />
+          어떤 분야의 전문가가 되기 위해서는<br />
+          최소한 1만 시간의 훈련이 필요하다는 법칙이다.
+        </p>
+        <!-- 3. input: 작성 -->
+        <form class="form-box">
+          <p class="">
+            나는 <input type="text" value="예) 프로그래밍" /> 전문가가 될
+            것이다.
+          </p>
+          <p class="">그래서 앞으로 매일 하루에</p>
+          <p class="">
+            <input type="text" value="예) 5시간" /> 시간씩 훈련할 것이다.
+          </p>
+        </form>
+        <!-- 4. click: 확인 버튼 -->
+        <div class="click-box">
+          <button class="btn btn-click">
+            나는 며칠 동안 훈련을 해야 1만 시간이 될까?
+          </button>
+          <div class="icon-click">
+            <img
+              class="icon"
+              src="./images/click.png"
+              alt="버튼 클릭"
+              sizes=""
+              srcset=""
+            />
+          </div>
+        </div>
+        <!-- 5. Result: 결과 -->
+        <p class="Result">
+          당신은 <strong>프로그래밍</strong> 전문가가 되기 위해서 <br />
+          대략 <strong>5110</strong> 일 이상 훈련하셔야 합니다! :)
+        </p>
+        <!-- 6. Go: 훈련하러 가기 -->
+        <div class="go-box">
+          <button class="btn btn-go">훈련하러 가기 GO!GO!</button>
+          <button class="btn btn-sharing">공유하기</button>
+        </div>
+      </article>
+    </main>
   </body>
 </html>

@@ -1,0 +1,92 @@
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+.FamousPhrase,
+.form-box,
+.Result {
+  color: white;
+}
+.FamousPhrase-title {
+  font-family: "OTEnjoystoriesBA";
+  text-align: center;
+  color: #f5df4d;
+}
+.FamousPhrase,
+.form-box,
+input[type="text"],
+.Result {
+  font-family: "GMarketSans";
+  text-align: center;
+}
+.FamousPhrase b,
+.btn,
+.Result strong {
+  font-family: "GmarketSansBold";
+}
+
+div.go-box button.btn-sharing {
+  background-color: white;
+}
+.btn {
+  font-weight: 700;
+  text-align: center;
+  color: #5b2386;
+  background-color: #fcee21;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 30px;
+  cursor: pointer;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 3em;
+  height: 3em;
+}

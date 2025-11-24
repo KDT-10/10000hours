@@ -1,0 +1,261 @@
+body {
+  background-color: #044a0c;
+  transition: all 1s;
+}
+main {
+  width: 95%;
+  padding: 5% 2.5%;
+  transition: all 1s;
+  background-color: #05300a;
+}
+
+/* 1. header: logo */
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.header-logo {
+  height: 150px;
+  background-color: cadetblue;
+}
+h1 img {
+  width: 100%;
+  position: absolute;
+  transition: all 0.8s;
+}
+.logo {
+  width: 77%;
+  z-index: 1;
+}
+.logobg {
+  width: 33%;
+}
+
+/* content: 여러개 같이 */
+.FamousPhrase-title,
+.FamousPhrase,
+.form-box,
+.click-box,
+.Result,
+.go-box {
+  margin-bottom: 15%;
+  background-color: #052509;
+}
+/* font */
+.FamousPhrase,
+.form-box,
+input[type="text"],
+.Result {
+  font-size: 13px;
+}
+.FamousPhrase,
+.form-box,
+.Result {
+  font-weight: 300;
+}
+
+/* 2. 명언 */
+.FamousPhrase-title {
+  font-size: 1.3rem;
+  transition: all 1s;
+}
+.FamousPhrase {
+  width: 99%;
+  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  background: url("../images/quotes.png") no-repeat center;
+  transition: all 1s;
+}
+.FamousPhrase b {
+  font-family: "GmarketSansMedium";
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* 3. input: 작성 */
+input[type="text"] {
+  width: 150px;
+  padding: 10px 0;
+  color: #aaa;
+  font-size: 13px;
+  font-family: 500;
+  letter-spacing: px;
+  border: transparent;
+  border-radius: px;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+/* 4. click: 확인 버튼 */
+.click-box {
+  display: flex;
+  justify-content: center;
+}
+.icon-click {
+}
+
+/* 5. Result: 결과 */
+.Result {
+  line-height: 2rem;
+}
+.Result strong {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 5px;
+  font-size: 2em;
+}
+
+/* 6. Go: 훈련하러 가기 */
+.go-box {
+  display: flex;
+  justify-content: center;
+}
+.btn-sharing {
+  margin-left: 10px;
+}
+
+@media (min-width: 500px) {
+  main {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .header-logo,
+  .FamousPhrase-title,
+  .FamousPhrase,
+  .form-box,
+  .click-box,
+  .Result,
+  .go-box {
+    margin-bottom: 50px;
+  }
+
+  .header-logo {
+    margin-top: 5%;
+  }
+  .FamousPhrase {
+    line-height: 2rem;
+  }
+  .FamousPhrase {
+    letter-spacing: 0.7px;
+  }
+
+  .form-box,
+  .Result {
+    letter-spacing: 1px;
+  }
+  input[type="text"] {
+    width: 170px;
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    border-radius: 7px;
+  }
+
+  .click-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .icon-click {
+    position: absolute;
+    right: 60px;
+    bottom: -10px;
+  }
+
+  .Result {
+    line-height: 3rem;
+  }
+  .Result strong {
+    font-size: 2em;
+  }
+
+  .FamousPhrase,
+  .form-box,
+  input[type="text"],
+  .Result {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    max-width: 800px;
+    padding: 50px;
+  }
+  .FamousPhrase-title,
+  .FamousPhrase {
+    margin-bottom: 80px;
+  }
+  .form-box,
+  .click-box,
+  .Result,
+  .go-box {
+    margin-bottom: 100px;
+  }
+
+  .header-logo {
+    height: 300px;
+    margin: 50px auto;
+  }
+  .logo {
+    width: 564px;
+    height: 112px;
+    top: 94px;
+    left: 110px;
+  }
+  .logobg {
+    width: 261px;
+    height: 265px;
+    top: 20px;
+    left: 260px;
+  }
+
+  .FamousPhrase-title {
+    font-size: 34px;
+  }
+  .FamousPhrase,
+  .form-box,
+  input[type="text"],
+  .click-box,
+  .Result,
+  .btn {
+    font-size: 24px;
+  }
+
+  .btn {
+    padding: 0.5rem 2.5rem 0.2rem 2.5rem;
+    line-height: 50px;
+    border-radius: 50px;
+  }
+
+  .icon-click {
+    right: 50px;
+    bottom: -20px;
+  }
+
+  .btn-sharing {
+    margin-left: 20px;
+  }
+}
+
+.form-group input,
+.form-group input[type="password"] {
+  background-color: #f4f5f5;
+  padding: 12px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #788991;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus {
+}
+
+.form-group select {
+  appearance: none;
+  background: url("../images/trailing-icon.png") no-repeat right 10px center;
+}
