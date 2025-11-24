@@ -3,7 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>1만 시간의 법칩</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper flex-col">
+      <header class="title-box">
+        <img
+          src="./images/title.png"
+          alt="1만 시간의 법칙 타이틀"
+          class="title-img"
+        />
+        <img src="./images/clock.png" alt="타이틀 시계" class="clock-img" />
+      </header>
+
+      <p class="quote-text">"연습은 어제의 당신보다 낫게 만든다."</p>
+
+      <main>
+        <div class="definition-box">
+          <img src="./images/quotes.png" alt="따옴표" class="definition-icon" />
+          <p><strong>1만 시간의 법칙</strong>은</p>
+          <p>어떤 분야의 전문가가 되기 위해서는</p>
+          <p>최소한 1만 시간의 훈련이 필요하다는 법칙이다.</p>
+        </div>
+
+        <div class="input-box">
+          <span>나는 </span>
+          <input type="text" name="Occupation" placeholder="예)프로그래머" />
+          <span> 전문가가 될 것 이다.</span>
+
+          <p>그래서 앞으로 매일 하루에</p>
+          <input type="text" name="study-time" placeholder="예)5시간" />
+          <span> 시간씩 훈련할 것이다.</span>
+        </div>
+
+        <div class="calc-box flex-col">
+          <button class="calc-btn">
+            나는 며칠 동안 훈련을 해야 <br />
+            1만 시간이 될까?
+          </button>
+          <img src="./images/click.png" alt="클릭" class="click-img" />
+        </div>
+
+        <p>
+          당신은 <strong class="calc-strong">프로그래밍</strong> 전문가가 되기
+          위해서
+        </p>
+        <p>
+          대략 <strong class="calc-strong">5110</strong> 일 이상 훈련하셔야
+          합니다! :)
+        </p>
+      </main>
+      <footer class="flex-row">
+        <button class="go-btn">훈련하러 가기 GO!GO!</button>
+        <button class="share-btn">공유하기</button>
+      </footer>
+    </div>
+  </body>
 </html>

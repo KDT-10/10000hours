@@ -1,0 +1,103 @@
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  /* 배경색 */
+  --bg-primary: #044a0c;
+
+  /* 강조색 */
+  --color-accent: #fcee21;
+  --color-accent-hover: #fdd835;
+  --color-accent-active: #fbc02d;
+
+  /* 텍스트 색상 */
+  --text-primary: white;
+  --text-secondary: #dabcbe;
+  --text-btn: #5b2386;
+  --text-quote: #f5df4d;
+
+  /* 그림자 */
+  --text-shadow-green: #5e8908;
+  --text-shadow-dark: #1a2800;
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+  /* 폰트 */
+  --font-base: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  --font-quote: "OTEnjoystoriesBA", sans-serif;
+  --font-bold: "GmarketSansBold", sans-serif;
+  --font-medium: "GmarketSansMedium", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* 리셋 */
+body {
+  /* padding: 1.6rem; */
+  margin: 0;
+  background-color: var(--bg-primary);
+  font-family: var(--font-medium);
+  font-size: 1.4rem;
+  color: var(--text-primary);
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  font-family: var(--font-bold);
+  color: var(--text-btn);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: none;
+  background-color: var(--color-accent);
+  padding: 1.1rem 4rem 1.1rem 4.1rem;
+}
+
+/* 인용구 폰트 */
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 본문 Bold 폰트 */
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 본문 Medium 폰트 */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 기본 레이아웃 설정 */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
