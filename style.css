@@ -4,6 +4,7 @@
    color: white;
    font-family: 'Gmarket Sans TTF';
  }
+/* 반응형 설정 */
 @media (min-width: 320px) and (max-width: 374.9px) {
   .img-10000hour {
     width: 73vw;
