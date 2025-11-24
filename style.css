@@ -99,10 +99,12 @@ input:focus {
 .title-img {
   width: min(16.75rem, 100%);
   aspect-ratio: 5 / 1;
+  z-index: 2;
 }
 .clock-img {
   height: min(7.875rem, 100%);
   aspect-ratio: 1 / 1;
+  z-index: 1;
 }
 
 .yellow-paragraph {
