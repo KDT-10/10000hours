@@ -22,22 +22,43 @@
   font-display: swap;
 }
 
+@media (max-width: 767px) {
+  .clock {
+    width: 125px;
+    height: 126px;
+  }
+
+  .title {
+    width: 267px;
+    height: 53px;
+  }
+}
+
 body {
   background-color: #004a0c;
   font-family: "GMarketSansLight";
 }
 
+/* page padding for small screens */
+body {
+  padding: 0 16px;
+}
+
 .main-title {
   position: relative;
-  margin-top: 200px;
+  margin-top: clamp(60px, 12vh, 200px);
+  min-height: clamp(220px, 28vh, 360px);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clock {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 261px;
-  height: 265px;
+  width: min(260px, 30vw);
+  height: auto;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
@@ -46,8 +67,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 564px;
-  height: 112px;
+  width: min(560px, 60vw);
+  height: auto;
   transform: translate(-50%, -50%);
   z-index: 2;
 }
@@ -55,9 +76,9 @@ body {
 .quote {
   color: #f5df4d;
   font-family: "JoyfulStory";
-  font-size: 36px;
+  font-size: clamp(22px, 3.5vw, 36px);
   text-align: center;
-  padding-top: 150px;
+  margin-top: 12px;
 }
 
 .quote-wrapper p {
@@ -79,7 +100,9 @@ body {
 
 .quote-wrapper {
   position: relative;
-  margin: 40px auto;
+  margin: 24px auto;
+  max-width: 760px;
+  width: min(100%, 760px);
 }
 
 .quote-bg {
@@ -87,7 +110,7 @@ body {
   max-width: 100%;
   height: auto;
   opacity: 0.2;
-  margin-left: 510px;
+  margin: 0 auto;
 }
 
 p {
@@ -105,16 +128,16 @@ span {
 
 .input-field {
   display: inline-block;
-  background: white;
-  width: 140px;
-  height: 57px;
+  background: #fffbe6;
+  width: auto;
+  height: auto;
   border-radius: 7px;
-  padding: 2px 10px;
-  margin: 0 4px;
+  padding: 6px 10px;
+  margin: 0 6px;
   font-family: inherit;
   font-size: inherit;
-  vertical-align: center;
-  color: #babcbe;
+  vertical-align: middle;
+  color: #6b6b6b;
 }
 
 .btn-training_hour {
@@ -124,16 +147,16 @@ span {
   border-radius: 56px;
   font-weight: 700;
   text-align: center;
-  width: 565px;
+  width: min(90%, 565px);
   height: 66px;
-  margin-left: 480px;
-  margin-top: 115px;
+  margin: 28px auto 12px;
+  display: block;
 }
 
 .container-click {
   width: 64px;
   height: 72px;
-  margin-left: 1050px;
+  margin: 12px auto;
 }
 
 .btn-training {
@@ -143,10 +166,10 @@ span {
   border-radius: 56px;
   font-weight: 700;
   text-align: center;
-  width: 356px;
+  width: min(90%, 356px);
   height: 66px;
-  margin-left: 480px;
-  margin-top: 90px;
+  margin: 18px auto;
+  display: block;
 }
 
 .btn-sharing {
@@ -156,8 +179,39 @@ span {
   border-radius: 56px;
   font-weight: 700;
   text-align: center;
-  width: 191px;
+  width: min(90%, 191px);
   height: 66px;
-  margin-left: 18px;
-  margin-top: 90px;
+  margin: 18px auto;
+  display: block;
+}
+
+/* Breakpoints for tablet / mobile */
+@media (max-width: 767px) {
+  .clock {
+    width: 120px;
+  }
+  .title {
+    width: 260px;
+  }
+  .quote {
+    font-size: 24px;
+  }
+  span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quote-wrapper p {
+    font-size: 14px;
+    width: 90%;
+  }
+  .quote {
+    font-size: 20px;
+  }
+  .btn-training_hour,
+  .btn-training,
+  .btn-sharing {
+    height: 56px;
+  }
 }
