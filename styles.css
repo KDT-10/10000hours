@@ -89,20 +89,22 @@ body {
 .action-buttons {
   position: relative;
   background-color: #ffeb3b;
-  border-radius: 38px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   font-weight: bold;
   top: 50%;
-  left: 50%;
+  left: 25%;
+  font-size: 24px;
+  border-radius: 56px;
+  text-align: center;
+  width: 565px;
+  height: 66px;
 }
 
 .icon {
   display: inline;
   top: 50%;
-  left: 50%;
+  left: 20%;
   position: relative;
-  width: 64;
-  height: 72;
+  margin-left: 50px;
 }
 
 .Result {
@@ -121,17 +123,27 @@ body {
   background-color: #ffeb3b;
   border-radius: 38px;
   top: 50%;
-  left: 50%;
+  left: 25%;
   font-weight: bold;
+  font-size: 18px;
+  border-radius: 56px;
+  text-align: center;
+  width: 356px;
+  height: 66px;
 }
 .sub {
   position: relative;
   background-color: white;
   border-radius: 38px;
   top: 50%;
-  left: 50%;
+  left: 25%;
   font-weight: bold;
   color: purple;
+  font-size: 18px;
+  border-radius: 56px;
+  text-align: center;
+  width: 191px;
+  height: 66px;
 }
 
 /* 태블릿/데스크톱 (768px 이상) */
