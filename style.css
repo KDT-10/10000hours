@@ -57,6 +57,7 @@ body {
   font-family: "JoyfulStory";
   font-size: 36px;
   text-align: center;
+  padding-top: 150px;
 }
 
 .quote-wrapper p {
@@ -86,6 +87,7 @@ body {
   max-width: 100%;
   height: auto;
   opacity: 0.2;
+  margin-left: 510px;
 }
 
 p {
