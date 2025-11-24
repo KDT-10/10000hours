@@ -11,7 +11,6 @@
   position: relative;
   width: 25.6rem;
   height: 12.5rem;
-  /* margin-top: 6.5rem; */
 }
 .title-img {
   width: min(25.6rem, 100%);
@@ -129,7 +128,6 @@
   }
 
   .title-box {
-    /* margin: 20rem 0 50rem 0; */
     width: 56.2rem;
     height: 26.5rem;
   }
@@ -153,7 +151,7 @@
   }
 
   .definition-icon {
-    width: 49.3rem;
+    width: 70.3rem;
   }
 
   .input-box {
