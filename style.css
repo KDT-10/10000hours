@@ -121,26 +121,8 @@ body {
   margin: 8px 0;
 }
 
-/* 인풋박스 집어넣기 */
-/* .input-box {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  color: #babcbe;
-  padding: 6px 16px;
-  border-radius: 5px;
-  font-weight: 700;
-  font-family: "G마켓 산스" sans-serif;
-  line-height: 100%;
-  gap: 12px;
-  white-space: nowrap;
-} */
-
 .input-box {
   background: white;
-  color: #5b2386;
   padding: 6px 16px;
   border-radius: 5px;
   font-weight: 700;
