@@ -65,7 +65,7 @@
 }
 .famous-phrase b {
   font-family: var(--font-medium);
-  font-size: 15px;
+  font-size: 16px;
 }
 @media (max-width: 767px) {
   .famous-phrase {
