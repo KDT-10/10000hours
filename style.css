@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #044a0c;
+  background: #385e1a;
   color: #fff;
   text-align: center;
   width: 1920px;
@@ -12,8 +12,34 @@ div {
   margin: 100px;
 }
 
+/* 인용구 폰트 */
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 본문 Bold 폰트 */
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 본문 Medium 폰트 */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .id-1 {
-  font-family: tvN Enjoystories;
+  font-family: OTEnjoystoriesBA;
   font-weight: 700;
   font-size: 36px;
   line-height: 100%;
@@ -21,10 +47,12 @@ div {
   text-align: center;
   vertical-align: middle;
   color: #f5df4d;
+  font-style: italic
+  font-weight: bold
 }
 
 .overlay-text {
-  font-family: Gmarket Sans;
+  font-family: GmarketSansMedium;
   font-weight: 400;
   font-size: 18px;
   leading-trim: NONE;
@@ -35,7 +63,7 @@ div {
 }
 
 strong {
-  font-family: Gmarket Sans;
+  font-family: GmarketSansBold;
   font-weight: 700;
   font-size: 24px;
   leading-trim: NONE;
@@ -46,7 +74,7 @@ strong {
 }
 
 .id-3 {
-  font-family: Gmarket Sans;
+ 
   font-weight: 700;
   font-size: 72px;
   line-height: 100%;
@@ -55,16 +83,15 @@ strong {
 }
 
 .id-4 {
-  font-family: Gmarket Sans;
+ 
   font-weight: 400;
   font-size: 24px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   vertical-align: middle;
 }
 p {
-  font-family: Gmarket Sans;
+  
   font-weight: 400;
   font-size: 24px;
   line-height: 100%;
@@ -105,7 +132,7 @@ input {
   color: #babcbe;
   font-size: 24px;
   font-weight: 400;
-  font-family: Gmarket Sans;
+
   text-align: center;
   vertical-align: middle;
 }
@@ -113,7 +140,7 @@ input {
   position: absolute;
   width: 600px;
   height: auto;
-  left: 660px;
+  left: 100px;
   top: 50px;
 }
 
@@ -129,4 +156,17 @@ input {
   height: auto;
   left: 1250px;
   top: 1000px;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
 }
