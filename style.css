@@ -24,8 +24,6 @@ p {
 }
 
 .background_board {
-  width: 100vw;
-  height: 100%;
   background-color: #044a0c;
   display: flex;
   flex-direction: column;
@@ -70,7 +68,7 @@ p {
   margin: 7vw;
 }
 
-.footer {
+.main_btn {
   display: flex;
   justify-content: center;
   gap: 13px;
