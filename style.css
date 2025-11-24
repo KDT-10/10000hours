@@ -121,9 +121,10 @@ body {
   font-size: 14px;
   color: #babcbe;
 }
-.box-with-clixk {
+.box-with-click {
   display: flex;
-  position: relative;
+  flex-direction: row;
+  align-items: center;
 }
 .yellowbox-1 {
   background-color: #fcee21;
@@ -131,6 +132,7 @@ body {
   width: 241px;
   height: 68px;
   line-height: 0.3;
+  justify-content: center;
 }
 .yellowbox-2 {
   background-color: #fcee21;
@@ -138,14 +140,16 @@ body {
   width: 186px;
   height: 46px;
   text-align: center;
+  justify-content: center;
 }
 .click-image {
-  display: inline-flex;
-  position: absolute;
+  display: flex;
 }
 .click-image img {
   width: 42px;
   height: 48px;
+  margin-top: 25px;
+  margin-left: 5px;
 }
 .bot-boxes {
   display: flex;
@@ -159,6 +163,8 @@ body {
   width: 92px;
   height: 46px;
   text-align: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .text-purpleBold {
@@ -208,8 +214,16 @@ body {
     margin-right: 10px;
   }
   .yellowbox-1 {
+    border-radius: 56px;
     width: 565px;
     height: 66px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  .box-with-click {
     display: flex;
     flex-direction: row;
   }
