@@ -2,7 +2,8 @@
 .wrapper {
   /* width: 36rem; */
   /* padding: 1.6rem 0.8rem; */
-  height: 110rem;
+  /* height: 110rem; */
+  margin: 6.5rem 0 15rem 0;
 }
 
 /* 메인 타이틀 배치 */
@@ -10,7 +11,7 @@
   position: relative;
   width: 25.6rem;
   height: 12.5rem;
-  margin-top: 6.5rem;
+  /* margin-top: 6.5rem; */
 }
 .title-img {
   width: min(25.6rem, 100%);
@@ -63,7 +64,7 @@
 
 /* Input Section (입력 섹션) */
 .input-box {
-  line-height: 1.6rem;
+  /* line-height: 1.6rem; */
   margin-bottom: 4.9rem;
 }
 
@@ -76,9 +77,8 @@
   color: var(--text-secondary);
   line-height: 1.6rem;
 }
-
-.input-box p {
-  margin: 1.7rem 0;
+.line-height {
+  line-height: 5rem;
 }
 
 /* 계산 영역 */
@@ -122,15 +122,16 @@
   background-color: var(--text-primary);
 }
 
+/* 데스크탑 반응형 */
 @media (min-width: 768px) {
   body {
     font-size: 2.4rem;
   }
 
   .title-box {
-    margin-top: 20rem;
+    /* margin: 20rem 0 50rem 0; */
     width: 56.2rem;
-    height: 11.2rem;
+    height: 26.5rem;
   }
 
   .title-img {
@@ -144,10 +145,56 @@
 
   .quote-text {
     font-size: 3.6rem;
-    margin: 10rem 0 0 0;
+    margin: 15rem 0 0 0;
   }
 
   .definition-box {
-    margin-bottom: 102;
+    margin-bottom: 9.1rem 0 7.8rem 0;
+  }
+
+  .definition-icon {
+    width: 49.3rem;
+  }
+
+  .input-box {
+    margin-bottom: 11.5rem;
+  }
+
+  .input-box input {
+    width: 22.8rem;
+    font-size: 2.4rem;
+    padding: 1.5rem;
+  }
+
+  .calc-box {
+    margin-bottom: 14.7rem;
+  }
+
+  .calc-btn {
+    border-radius: 5.6rem;
+    font-size: 2.4rem;
+  }
+
+  .click-img {
+    width: 6.4rem;
+    left: 92%;
+  }
+
+  .calc-strong {
+    font-size: 7.2rem;
+  }
+
+  .flex-row {
+    margin-top: 14.7rem;
+    gap: 1.8rem;
+  }
+
+  .go-btn,
+  .share-btn {
+    font-size: 2.4rem;
+  }
+
+  .row-line {
+    display: none;
   }
 }
