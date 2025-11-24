@@ -161,3 +161,52 @@ body {
   height: auto;
   display: block;
 }
+
+.result {
+  margin-bottom: 64px;
+}
+
+.result-label {
+  font-size: 16px;
+  color: var(--gray-text);
+  margin: 4px 0;
+}
+
+.result-job {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.result-days {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 12px 0 4px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-main {
+  background: var(--yellow);
+  color: var(--purple);
+}
+
+.btn-sub {
+  background: var(--white);
+  color: var(--purple);
+  border: 2px solid var(--purple);
+}
