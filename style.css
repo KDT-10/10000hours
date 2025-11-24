@@ -144,7 +144,7 @@ div.gongback4 {
 }
 
 /*버튼 스타일*/
-input.btn {
+.btn {
   text-align: center;
   height: 66px;
   width: 565px;
@@ -156,6 +156,26 @@ input.btn {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-span.btn_contents {
+span.btn_img {
+  padding-top: 10px;
+}
+
+/*공백5 스타일*/
+div.gongback5 {
   text-align: center;
+  width: 486px;
+  height: 147px;
+}
+
+/*본문2 스타일*/
+span.pro {
+  font-family: "GmarketSansBold";
+  font-size: 72px;
+}
+
+div.fivethousand {
+  font-family: "GmarketSansMedium";
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
 }
