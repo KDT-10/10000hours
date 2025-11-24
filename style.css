@@ -104,3 +104,11 @@ div.gongback3 {
   width: 486px;
   height: 102px;
 }
+
+/*프로그래밍 입력란 스타일*/
+.programing {
+  font-family: "GmarketSansMedium";
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+}
