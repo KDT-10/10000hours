@@ -31,7 +31,7 @@
     font-size: 4.25vw;
   }
   .calculate-text {
-    font-size: 4.25vw;
+    font-size: 4.06976vw;
     grid-template-columns: 1fr 1fr 2fr 0fr;
     grid-template-rows: 3fr;
   }
@@ -41,13 +41,13 @@
 
   }
   .tying-form {
-    width: 47.575vw;
-    height: 11.5625vw;
-    font-size: 4.25vw;
+    width: 44.19vw;
+    height: 10.175vw;
+    font-size: 4.06976vw;
   }
   .calculate-btn {
   padding: 0.78125vw 2.552086vw;
-  font-size: 4.25vw;
+  font-size: 4.06976vw;
   margin: 0.3125vw 0.15625vw;
   border-radius: 56px;
   }
@@ -228,7 +228,6 @@
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: column;
-  width: 85vw;
 } 
 /* 바탕 -끝- */
 
