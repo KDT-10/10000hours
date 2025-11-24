@@ -149,6 +149,7 @@ body {
 }
 
 /* 데스크탑 반응웹페이지에서 내가 원하는 사이즈로 안바뀌는 것 수정필요 */
+/* 수정완료 */
 .center-btn {
   width: 241px;
   height: 68px;
@@ -252,6 +253,28 @@ body {
   .page {
     max-width: 1024px;
   }
+
+  /* 시계 */
+  .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 261px;
+    height: 265px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  /* 타이틀 */
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 529px;
+    height: 112px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+
   .center-btn {
     width: 565px;
     gap: 10px;
