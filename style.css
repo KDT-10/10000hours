@@ -34,6 +34,8 @@
     font-size: 4.06976vw;
     grid-template-columns: 1fr 1fr 2fr 0fr;
     grid-template-rows: 3fr;
+    padding-left: 3vw;
+    padding-right: 3vw;
   }
   .item:nth-child(3) {
     grid-column: 2 / span 3;
