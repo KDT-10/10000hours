@@ -1,0 +1,425 @@
+/* ========================================================= */
+/* 웹 폰트 */
+/* ========================================================= */
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ========================================================= */
+/* CSS 변수 */
+/* ========================================================= */
+:root {
+  /* 배경색 */
+  --bg-primary: #385e1a;
+
+  /* 강조색 */
+  --color-accent: #ffeb3b;
+  --color-accent-hover: #fdd835;
+  --color-accent-active: #fbc02d;
+
+  /* 텍스트 색상 */
+  --text-primary: white;
+  --text-secondary: #d3d3d3;
+  --text-dark: #333;
+  --text-quote: #f5df4d;
+
+  /* 그림자 */
+  --text-shadow-green: #5e8908;
+  --text-shadow-dark: #1a2800;
+  --box-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+  /* 폰트 */
+  --font-base: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  --font-quote: "OTEnjoystoriesBA", sans-serif;
+  --font-bold: "GmarketSansBold", sans-serif;
+  --font-medium: "GmarketSansMedium", sans-serif;
+}
+
+/* ========================================================= */
+/* 전역 스타일 */
+/* ========================================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  text-align: center;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* ========================================================= */
+/* 기본 스타일 (모바일 - 768px 미만) */
+/* ========================================================= */
+.container {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Main Title */
+.main-title {
+  position: relative;
+  height: 130px;
+  margin: 30px 0 10px 0;
+  text-shadow: -2px 2px 0 var(--text-shadow-green),
+    -4px 4px 0 var(--text-shadow-dark);
+}
+
+.main-title img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-title img:first-child {
+  z-index: 1;
+  width: 125px;
+  height: 125px;
+}
+
+.main-title .title-icon {
+  z-index: 2;
+  width: 256px;
+  height: 53px;
+}
+
+/* Quote */
+.quote {
+  font-family: var(--font-quote);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--text-quote);
+  margin-bottom: 40px;
+}
+
+/* Definition Box */
+.definition-box {
+  position: relative;
+  width: 90%;
+  margin: 0 auto 30px auto;
+}
+
+.definition-text {
+  font-family: var(--font-medium);
+  position: relative;
+  z-index: 1;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--text-secondary);
+  padding: 0 10px;
+}
+
+.quote-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  z-index: -1;
+}
+
+.def-title {
+  color: var(--text-primary);
+}
+
+.def-title-bold {
+  font-family: var(--font-bold);
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+/* Input Section */
+.input-prompt {
+  font-size: 16px;
+  line-height: 2.5;
+  margin-bottom: 30px;
+}
+
+.input-field {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  color: var(--text-dark);
+  background-color: var(--text-primary);
+  transition: box-shadow 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-accent);
+}
+
+.subject-input {
+  width: 120px;
+}
+
+.time-input {
+  width: 100px;
+}
+
+/* Calculate Button */
+.calculate-button-area {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.calculate-btn {
+  padding: 12px 25px;
+  background-color: var(--color-accent);
+  color: var(--text-dark);
+  border: none;
+  border-radius: 38px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: var(--box-shadow-md);
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.calculate-btn:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.25);
+}
+
+.calculate-btn:active {
+  background-color: var(--color-accent-active);
+  transform: translateY(0);
+}
+
+.click-icon {
+  width: 32px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* Result Area */
+.result-area {
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.result-text {
+  font-family: var(--font-medium);
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+.highlight-subject {
+  font-family: var(--font-bold);
+  font-size: 40px;
+  color: var(--text-primary);
+  display: block;
+  margin: 10px 0;
+}
+
+.result-days {
+  font-family: var(--font-bold);
+  font-size: 40px;
+  color: var(--text-primary);
+  display: block;
+  margin: 10px 0;
+}
+
+/* Action Buttons */
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.action-btn {
+  padding: 10px 12px;
+  border: 2px solid var(--text-primary);
+  border-radius: 38px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--box-shadow-md);
+}
+
+.action-btn:active {
+  transform: translateY(0);
+}
+
+.primary-btn {
+  background-color: var(--color-accent);
+  color: var(--text-dark);
+  border-color: var(--color-accent);
+  width: 200px;
+}
+
+.primary-btn:hover {
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+}
+
+.primary-btn:active {
+  background-color: var(--color-accent-active);
+  border-color: var(--color-accent-active);
+}
+
+.secondary-btn {
+  background-color: var(--text-primary);
+  color: var(--text-dark);
+  border-color: var(--text-primary);
+  width: 100px;
+}
+
+.secondary-btn:hover {
+  background-color: #f5f5f5;
+  border-color: #f5f5f5;
+}
+
+.secondary-btn:active {
+  background-color: #e0e0e0;
+  border-color: #e0e0e0;
+}
+
+/* ========================================================= */
+/* 태블릿/데스크톱 (768px 이상) */
+/* ========================================================= */
+@media (min-width: 768px) {
+  .container {
+    padding: 50px 20px;
+    max-width: 800px;
+  }
+
+  /* Main Title */
+  .main-title {
+    height: 230px;
+    margin: 50px 0 20px 0;
+  }
+
+  .main-title img:first-child {
+    width: 265px;
+    height: 265px;
+  }
+
+  .main-title .title-icon {
+    width: 562px;
+    height: 112px;
+  }
+
+  /* Quote */
+  .quote {
+    font-size: 30px;
+  }
+
+  /* Definition Box */
+  .definition-box {
+    width: 600px;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+  }
+
+  .definition-text {
+    font-size: 18px;
+  }
+
+  .def-title-bold {
+    font-size: 32px;
+  }
+
+  /* Input Section */
+  .input-prompt {
+    font-size: 18px;
+    line-height: 3;
+  }
+
+  .subject-input {
+    width: 180px;
+  }
+
+  .time-input {
+    width: 150px;
+  }
+
+  /* Calculate Button */
+  .calculate-btn {
+    padding: 15px 35px;
+    font-size: 18px;
+  }
+
+  .click-icon {
+    width: 40px;
+  }
+
+  /* Result Area */
+  .result-area {
+    margin-bottom: 50px;
+  }
+
+  .result-text {
+    font-size: 18px;
+  }
+
+  .highlight-subject {
+    font-size: 60px;
+    display: inline;
+  }
+
+  .result-days {
+    font-size: 60px;
+    display: inline;
+  }
+
+  /* Action Buttons */
+  .action-btn {
+    padding: 12px 20px;
+  }
+
+  .primary-btn {
+    width: 250px;
+  }
+
+  .secondary-btn {
+    width: 150px;
+  }
+}
